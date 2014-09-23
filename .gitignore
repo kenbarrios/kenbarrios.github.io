@@ -20,9 +20,10 @@
 
 	<h3>My Experience</h3>
 
-	  <ul>This is how I've evolved professionally:
+	  <p>This is how I've evolved professionally:</p>
 
-  		<li><p>Barista, Starbucks</p> 
+  	  <ul>
+  	    <li><p>Barista, Starbucks</p> 
   		    <p>Chicago, June 2014 - Present</p></li>
 
   		<li><p>Senior Accounts Receivable Specialist, Pierce & Assoc</p><p>Chicago, January 2013 - May 2014</p></li>
@@ -41,6 +42,11 @@
     	    <p>NEIU, Chicago, 2002 - 2008</p></li></ul>
 
 	<h3>Other</h3>
+
+
 		<p>If you're interested in collaborating with me on a project, feel free to email me at <a href="mailto:keniswaiting@gmail.com?subject=Collaborate">keniswaiting@gmail.com</a>.</p>
+		
+
     </body>
+
 </html> 
