@@ -10,6 +10,14 @@ body {
 	padding: ;
 }
 
+div {
+	background-repeat: repeat-x;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
 hr {
 	vertical-align: left;
 	width: 200px;
@@ -19,9 +27,3 @@ a {
 	
 }
 
-#stripes {
-	background-repeat: repeat-x;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
