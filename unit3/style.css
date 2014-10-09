@@ -1,7 +1,7 @@
 
 
 body {
-	background: cover;
+	background: url(images/background.jpg);
 	background-color: ;
 	font-size: ;
 	font-family: ;
@@ -23,6 +23,6 @@ a {
 
 }
 
-.background {
+.splash {
 	background: cover;
 }
