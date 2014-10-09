@@ -2,7 +2,6 @@
 
 body {
 	background: url(images/background.jpg);
-	background-position: center;
 	font-size: 22px;
 	font-family: Helvetica;
 	color: white;
@@ -12,6 +11,7 @@ body {
 }
 
 hr {
+	vertical-align: left;
 	width: 200px;
 }
 
@@ -21,8 +21,4 @@ a {
 
 #stripes {
 
-}
-
-.splash {
-	background: cover;
 }
