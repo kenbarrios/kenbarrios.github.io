@@ -13,8 +13,9 @@ body {
 }
 
 hr {
+	color: red;
 	width: 100px;
-	text-align: left;
+	text-align: right;
 }
 
 a {
