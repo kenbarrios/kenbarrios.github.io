@@ -20,5 +20,9 @@ a {
 }
 
 #stripes {
-
+	background: url(images/stripes.png);
+	background-repeat: repeat-x;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
