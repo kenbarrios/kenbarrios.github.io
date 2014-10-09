@@ -13,18 +13,11 @@ body {
 }
 
 hr {
-	width: 200px;
+	width: 100px;
 }
 
 a {
 	
-}
-
-#stripes {
-	background-repeat: repeat-x;
-	position: absolute;
-	top: 0;
-	left: 0;
 }
 
 #taasky {
