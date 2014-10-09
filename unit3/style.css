@@ -13,7 +13,7 @@ body {
 }
 
 hr {
-	color: red;
+	border-color: red;
 	width: 100px;
 	text-align: right;
 }
