@@ -6,13 +6,13 @@ body {
 	font-weight: normal;
 	font-family: Helvetica;
 	color: white;
+	text-align: left;
 	height: ;
 	width: ;
 	padding: ;
 }
 
 hr {
-	vertical-align: left;
 	width: 200px;
 }
 
