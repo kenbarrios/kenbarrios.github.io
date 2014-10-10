@@ -2,26 +2,49 @@
 
 body {
 	background: url(images/background.jpg);
-	font-size: 22px;
-	font-weight: normal;
-	font-family: Helvetica;
-	color: white;
-	text-align: left;
-	height: ;
-	width: ;
-	padding: ;
+	background-size: cover;
+	background-color: #52596B;
 }
 
 hr {
 	border-color: red;
-	width: 100px;
-	text-align: right;
+	width: 35px;
+	position: relative;
+	margin-left: 100px;
 }
 
 a {
-	
+	margin-left: 100px;
+}
+
+p {
+	text-align: left;
+	color: white;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: normal;
+	margin-left: 100px;
+	padding-top: 10px;
+}
+
+#stripes {
+	background: url(images/stripes.png);
+	background-repeat: repeat-x;
+	height: 13px;
+	width: 100%; 
+	position: absolute;
+	top: -1px;
+	left: -1px;
 }
 
 #taasky {
-	margin-top: 200px;
+	margin-top: 250px;
+	margin-left: 100px;
+	padding-bottom: 15px;
+	width: 120px;
 }
+
+
+
+
