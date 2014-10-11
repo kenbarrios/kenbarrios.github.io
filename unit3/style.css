@@ -1,7 +1,8 @@
 
 
 body {
-	background: url(images/background.jpg) #52596B no-repeat cover center;
+	background: url(images/background.jpg) #52596B no-repeat;
+	background-size:cover;
 	/*background-size: cover;
 	background-color: #52596B;
 	background-repeat:no-repeat; */
