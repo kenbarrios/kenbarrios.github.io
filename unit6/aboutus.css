@@ -1,0 +1,123 @@
+* {
+	margin:0; padding:0; box-sizing:border-box;
+	background-color: rgba(82, 89, 107, 1);
+	color: white;
+	text-decoration: none;
+}
+
+a {
+	background-color: transparent;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+div {
+	background-color: transparent;
+}
+
+h1 {
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 20px;
+	font-family: 'Judson', serif;;
+	font-size: 50px;
+	line-height: 30px;
+	padding: 10px 0px 13px 0px;
+}
+
+h2, p {
+	background-color: transparent;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+}
+
+footer {
+	width: 750px;
+	background-color: transparent;
+	font-size: 70px;
+	margin-bottom: 20px;
+}
+
+footer a {
+	width: 300px;
+	border: 2px solid black;
+	display: inline-block;
+	margin-top: 0px;
+	padding: 20px;
+	text-align: center;
+}
+
+footer a:hover {
+	color: rgba(221, 39, 39, 1);
+}
+
+img {
+	background-color: transparent;
+	margin-left: 50px;
+}
+
+input {
+	background-color: rgba(217, 198, 59, .7);
+	font-size: 30px;
+	text-align: center;
+	width: 280px;
+}
+
+nav {
+	height: 36px;
+	width: 1265px;
+	background-color: rgba(221, 39, 39, 1);
+	font-size: 30px;
+}
+
+nav a {
+	background-color: rgba(221, 39, 39, 1);
+	display: inline-block;
+	font-size: 30px;
+	margin-top: 4px;
+}
+
+nav a:hover {
+	color: black;
+}
+
+p {
+	background-color: rgba(221, 39, 39, .8);
+	border-radius: 20px;
+	font-size: 28px;
+	padding: 10px 10px 13px 10px;
+}
+
+section {
+	background-color: transparent;
+	height: 410px;
+	width: 390px;
+	margin-top: -403px;
+	margin-left: 785px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+#anvil {
+	margin-top: 40px;
+}
+
+#logo {
+	margin-left: 20px;
+}
+
+#date {
+	margin-left: 425px;
+}
+
+#menu {
+	float: right;
+	margin-right: 20px;
+}
+
+#subscribe {
+	background-color: rgba(9, 242, 199, .6);
+	margin-left: 60px;
+} 
+
+#footarch {
+	background-color: rgba(252, 141, 128, .6);
+}
