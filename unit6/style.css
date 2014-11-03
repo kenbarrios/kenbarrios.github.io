@@ -102,6 +102,7 @@ nav {
 
 nav a {
 	background-color: rgba(221, 39, 39, 1);
+	font-family: 'Syncopate', sans-serif;
 }
 
 nav a:hover {
@@ -126,12 +127,13 @@ section h2:hover {
 }
 
 #date {
-	margin-left: 425px;
+	margin-left: 235px;
 }
 
 #menu {
 	float: right;
 	margin-right: 20px;
+	margin-top: 3px;
 }
 
 #text {

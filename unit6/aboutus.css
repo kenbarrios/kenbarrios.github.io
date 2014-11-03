@@ -71,6 +71,7 @@ nav {
 nav a {
 	background-color: rgba(221, 39, 39, 1);
 	display: inline-block;
+	font-family: 'Syncopate', sans-serif;
 	font-size: 30px;
 	margin-top: 4px;
 }
@@ -105,7 +106,7 @@ section {
 }
 
 #date {
-	margin-left: 425px;
+	margin-left: 235px;
 }
 
 #menu {
