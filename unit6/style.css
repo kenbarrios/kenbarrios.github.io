@@ -1,206 +1,473 @@
-* {
-	margin:0; padding:0; box-sizing:border-box;
-	background-color: rgba(82, 89, 107, 1);
-	color: white;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
 	text-decoration: none;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-a {
-	font-family: 'Josefin Sans', sans-serif;
-}
+/*=======================================
+ABOVE IS THE GA CSS RESET CODE*/
 
-article {
-	height: 600px;
-	width: 1265px;
-	background: url("images/guerrero-mass-grave.png");
-	background-position: no-repeat, center;
-	clear: both;
-	color: white;
-}
-
-article h1:hover {
-	color: red;
-}
-
-div {
-	font-family: 'Judson', serif;
-	background-color: black;
-	width: 1265px;
-	font-size: 40px;
+body {
 	text-align: center;
-}
-
-div section {
-	border-bottom: 5px solid rgba(221, 39, 39, 1);
-	height: 240px;
-}
-
-div section a:hover {
-	color: rgba(221, 39, 39, 1);
-}
-
-div.archives {
-	background-color: rgba(82, 89, 107, .6);
-	font-size: 30px;
-}
-
-div.archives a {
-	width: 35%;
-	background-color: black;
-	border-radius: 30px;
-	display: inline-block;
-	font-size: 25px;
-	clear: both;
-	padding: 6px;
-	text-align: center;
-}
-
-div.archives img {
-	border-radius: 20px;
-	float: left;
-	margin-left: 50px;
-}
-
-footer {
-	height: 300px;
-	margin-top: 5px;
-}
-
-footer a {
-	height: 290px;
-	width: 350px;
-	background-color: rgba(82, 89, 107, .6);
-	border: black solid 2px;
-	display: inline-block;
-	font-size: 80px;
-	margin-left: 50px;
-	padding-top: 100px;
-	text-align: center;
-}
-
-footer a:hover {
-	color: rgba(221, 39, 39, 1);
-}
-
-h1 {
-	font-family: 'Judson', serif;
-	margin-top: 30px;
-}
-
-h2 {
-	font-family: 'Josefin Sans', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1230px;
 }
 
 nav {
-	height: 36px;
-	width: 1265px;
-	background-color: rgba(221, 39, 39, 1);
-	font-size: 30px;
+	background-color: rgba(178, 60, 18, 1);
+	font-family: 'Syncopate', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -40px;
+	padding: 7px 0px 0px 0px;
 	position: fixed;
-	margin-top:-30px;
+	text-align: center;
+	height: 32px;
+	width: 1230px;
 }
 
 nav a {
-	background-color: rgba(221, 39, 39, 1);
-	font-family: 'Syncopate', sans-serif;
+	color: rgba(250, 250, 250, 1);
+	font-size: 29px;
+	text-decoration: none;
+	vertical-align: center;
 }
 
-nav a:hover {
-	color: black;
-}
-
-p {
-	background:black;
-	border-bottom: 5px solid rgba(221, 39, 39, 1); 
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 50px;
-	padding: 20px 0px 20px 0px;
-	text-align: center;	
-}
-
-section h2:hover {
-	color: rgba(221, 39, 39, 1);
-}
-
-#logo {
-	margin-left: 20px;
-}
-
-#date {
-	margin-left: 235px;
-}
-
-#menu {
-	float: right;
-	margin-right: 20px;
-	margin-top: 3px;
-}
-
-#text {
-	background-color: rgba(66, 66, 67, .7);
-	font-size: 65px;
+a {
 	text-align: center;
 }
 
-#subscribe {
-	background-color: rgba(9, 242, 199, .6);
-} 
-
-#about {
-	background-color: rgba(217, 198, 59, .6);
+a h1 {
+	color: white;
+	background-color: rgba(40, 40, 40, .5);
+	font-family: helvetica, sans-serif;
+	font-size: 40px;
+	padding: 10px 0px 10px 0px;
+	text-decoration: none;
 }
 
-#footarch {
-	background-color: rgba(252, 141, 128, .6);
+a section {
+	margin-top: 5px;
+}
+
+section h2 {
+	background-color: rgba(40, 40, 40, .5);
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 40px;
+	padding: 10px 0px 10px 0px;
+	text-decoration: none;
+}
+
+section h3 {
+	color: rgba(40, 40, 40, 1);
+	font-family: Helvetica, sans-serif;
+	font-size: 35px;
+	padding: 10px 0px 10px 0px;
+	text-decoration: none;
+}
+
+footer {
+	height: 130px;
+	width: 1230px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+footer a {
+	border-radius: 10px;
+	color: white;
+	display: inline-block;
+	float: left;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 60px;
+	margin: 10px 10px 0px 10px;
+	padding: 8px;
+	text-decoration: none;
+	height: 70px;
+	width: 30%;
 }
 
 .markers {
-	margin-left: 0px;
-}
-
-.first {
-	background: url("images/hong-kong-umbrella-rev.png");
-	background-position: no-repeat, center;
+	background-color: rgba(178, 60, 18, 1);
 	color: white;
-	height: 500px;
-	width: 1265px;
+	font-family: 'Syncopate', sans-serif;
+	font-size: 26px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	padding: 15px 0px 0px 0px;
+	text-align: center;
+	height: 40px;
+	width: 1230px;
 }
 
-h2.texttwo {
-	background-color: rgba(66, 66, 67, .7);
-	font-size: 65px;
-	padding: 10px;
+.archsec a {
+	background-color: rgba(40, 40, 40, 1);
+	border-radius: 20px;
+	color: white;
+	display: inline-block;
+	font-family: 'Georgia', serif;
+	font-size: 25px;
+	margin: 5px;
+	padding: 5px;
+	height: 70px;
+	width: 30%;
+}
+
+.archsec + .archsec {
+	border-top: solid black 2px;
+	margin-top: 10px;
+}
+
+#date {
+	margin: 0px 230px;
+}
+
+#topstory {
+	background-image: url(images/guerrero-mass-grave.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 550px;
+	width: 1230px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+#first {
+	background-image: url(images/hong-kong-umbrella-rev.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	width: 1230px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#second {
+	background-image: url(images/ebola.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	width: 1230px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#third {
+	background-image: url(images/anita-sarkeesian.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	width: 1230px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fourth{
+	background-image: url(images/kobane-resistance.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	width: 1230px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fifth {
+	background-image: url(images/blackstone.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	width: 1230px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about {
+	background-color: rgba(40, 40, 40, 1);
+}
+
+#subscribe {
+	background-color: rgba(178, 60, 18, 1);
+}
+
+#footarch {
+	background-color: rgba(40, 40, 40, 1);
+}
+
+/*======================================
+BELOW is CSS for the Story Page*/
+
+article section p {
+	margin: 18px 0px 18px 0px;
+}
+
+.story {
+	height: 550px;
+	width: 1230px;
+	background-image: url(images/guerrero-mass-grave.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.storyarticle {
+	width: 780px;
+}
+
+.storytitle {
+	height: 80px;
+	width: 780px;
+	background-color: rgba(40, 40, 40, 1);
+	color: white;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 40px;
+	margin: 15px 0px 15px 25px;
+	padding: 5px;
+	text-align: left;
+}
+
+.storybody {
+	width: 780px;
+	color: rgba(40, 40, 40, 1);
+	font-family: 'Georgia', serif;
+	font-size: 20px;
+	margin-left: 25px;
+	text-align: left;
+}
+
+#share {
+	height: 65px;
+	width: 400px;
+	background-color: rgba(40, 40, 40, .8);
+	border-radius: 30px;
+}
+
+#share a img {
+	width: 50px;
+	margin: 0px 10px 0px 10px;
+	padding: 5px 0px 0px 0px;
+}
+
+/*=====================================
+BELOW is CSS for About Us Page */
+
+input[type=email] {
+	font-size: 30px;
+}
+
+input[type=submit] {
+	height: 100px;
+	width: 100px;
+	font-size: 30px;
+}
+
+#aboutnav {
+	background-color: rgba(178, 60, 18, 1);
+	clear: top;
+	font-family: 'Syncopate', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	padding: 7px 0px 0px 0px;
+	position: fixed;
+	text-align: center;
+	height: 32px;
+	width: 1230px;
+}
+
+#aboutnav a {
+	color: rgba(250, 250, 250, 1);
+	font-size: 29px;
+	text-decoration: none;
+	vertical-align: center;
+}
+
+#anvil {
+	height: 400px;
+	width: 640px;
+	display: inline-block;
+	float: left;
+	margin-top: 50px;
+}
+
+#aboutsection {
+	height: 480px;
+	width: 580px;
+	float: right;
+	margin-top: 50px;
+}
+
+#aboutsection h1 {
+	height: 50px;
+	width: 580px;
+	background-color: rgba(40, 40, 40, 1);
+	color: white;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 40px;
+}
+
+#aboutsection p {
+	height: 200px;
+	width: 580px;
+	background-color: rgba(178, 60, 18, 1);
+	border-radius: 30px;
+	color: white;
+	font-family: 'Georgia', serif;
+	font-size: 25px;
+	line-height: 35px;
+	margin: 5px 0px 5px 0px;
+	padding: 20px 2px 0px 2px;
+}
+
+#aboutshare {
+	height: 40px;
+	width: 580px;
+	padding: 10px 0px 9px 0px;
+}
+
+#aboutshare p {
+	width: 580px;
+}
+
+#aboutshare a img {
+	height: 40px;
+}
+
+p#aboutmailing {
+	height: 30px;
+	width: 580px;
+	background-color: rgba(40, 40, 40, 1);
+	border-radius: 0px;
+	color: white;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 20px;
+	padding: 0px 0px 10px 0px;
+}
+
+#aboutfooter {
+	height: 400px;
+	width: 1230px;
+	float: left;
+	margin-top: -28px;
+}
+
+#aboutfooter a {
+	display: inline;
+	float: left;
+}
+
+/*==================================
+BELOW is CSS for Subscribe Page*/
+
+.buttons {
+	display: block;
+}
+
+.prices {
+	font-family: 'Georgia', serif;
+	font-size: 18px;
+	margin: -20px 0px 0px 20px;
+}
+
+.plantype {
+	width: 350px;
+	background-color: rgba(40, 40, 40, 1);
+	border-radius: 20px;
+	color: white;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 25px;
+	margin: 0px 0px 15px 15px;
+	padding: 8px;
+}
+
+.mailing {
 	text-align: center;
 }
 
-.second {
-	background: url("images/ebola.png");
-	background-position: no-repeat no-repeat center,;
-	color: white;
-	height: 500px;
-	width: 1265px;
+#scribebody {
+	width: 1230px;
 }
 
-.third {
-		background: url("images/anita-sarkeesian.png");
-	background-position: top;
-	color: white;
-	height: 500px;
-	width: 1265px;
+#scribenav {
+	background-color: rgba(178, 60, 18, 1);
+	font-family: 'Syncopate', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -60px;
+	padding: 7px 0px 0px 0px;
+	position: ;
+	text-align: center;
+	height: 32px;
+	width: 1230px;
 }
 
-.fourth {
-	background: url("images/turkey-syria-kobane.png");
-	background-position: no-repeat no-repeat top right,;
-	color: white;
-	height: 500px;
-	width: 1265px;
+#scribenav a {
+	color: rgba(250, 250, 250, 1);
+	font-size: 29px;
+	text-decoration: none;
 }
 
-.fifth {
-	background: url("images/blackstone.png");
-	background-position: center no-repeat, no-repeat;
-	color: white;
-	height: 500px;
-	width: 1265px;
+#subPlans {
+	height: 515px;
+	width: 525px;
+	margin-top: 60px;
+	text-align: left;
+}
+
+#subImage {
+	height: 515px;
+	width: 600px;
+	float: right;
+	margin-top: -505px;
+	margin-right: 40px;
+}
+
+#scribefooter {
 }
