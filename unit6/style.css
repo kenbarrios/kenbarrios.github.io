@@ -492,7 +492,7 @@ BELOW is the responsive code for
 IPHONE 5 - VERTICAL 
 ==================================*/
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
 body {
 	text-align: center;
 	margin-left: auto;
