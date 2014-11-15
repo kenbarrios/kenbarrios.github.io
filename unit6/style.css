@@ -505,14 +505,14 @@ nav {
 	position: fixed;
 	text-align: center;
 	height: 50px;
-	width: 400px;
+	width: 300px;
 }
 
 nav a {
 	color: rgba(250, 250, 250, 1);
-	font-size: 35px;
+	font-size: 30px;
 	text-decoration: none;
-	vertical-align: center;
+	vertical-align: middle;
 }
 
 a {
@@ -611,8 +611,8 @@ footer a {
 	background-image: url(images/guerrero-mass-grave.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 350px;
-	width: 400px;
+	height: 300px;
+	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
