@@ -998,7 +998,7 @@ article section p {
 }
 
 .storytitle {
-	height: 150px;
+	height: 170px;
 	width: 300px;
 	background-color: rgba(40, 40, 40, 1);
 	color: white;
@@ -1028,7 +1028,7 @@ article section p {
 
 #share {
 	height: 65px;
-	width: 400px;
+	width: 300px;
 	background-color: rgba(40, 40, 40, .8);
 	border-radius: 30px;
 	margin-left: auto;
