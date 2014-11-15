@@ -588,6 +588,7 @@ footer a {
 	margin-top: 5px;
 	padding: 15px 0px 0px 0px;
 	text-align: center;
+	vertical-align: middle;
 	height: 30px;
 	width: 850px;
 }
