@@ -570,7 +570,7 @@ footer a {
 	font-family: 'Helvetica', sans-serif;
 	font-size: 60px;
 	margin-top: 10px;
-	margin-left: 28px;
+	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
 	text-decoration: none;
