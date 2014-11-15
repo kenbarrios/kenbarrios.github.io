@@ -492,7 +492,7 @@ BELOW is responsive design for
 IPAD - Horizontal HomePage
 =====================================*/
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
 body {
 	text-align: center;
 	margin-left: auto;
@@ -611,7 +611,7 @@ footer a {
 }
 
 #date {
-	margin: 0px 130px;
+	margin: 0px 160px;
 }
 
 #topstory {
