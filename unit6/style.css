@@ -697,7 +697,7 @@ BELOW is responsive design for
 IPHONE 5 - Horizontal 
 =====================================*/
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 body {
 	text-align: center;
 	margin-left: auto;
