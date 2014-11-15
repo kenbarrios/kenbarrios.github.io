@@ -970,3 +970,75 @@ footer a {
 }
 
 }
+
+/*========================================
+BELOW is CSS for the Story Page
+IPHONE Vertical 
+=========================================*/
+
+@media (max-width: 320px) {
+
+article section p {
+	margin: 18px 0px 18px 0px;
+}
+
+.story {
+	height: 300px;
+	width: 300px;
+	background-image: url(images/guerrero-mass-grave.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.storyarticle {
+	width: 300px;
+}
+
+.storytitle {
+	height: 150px;
+	width: 300px;
+	background-color: rgba(40, 40, 40, 1);
+	color: white;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	text-align: left;
+}
+
+.storybody {
+	width: 300px;
+	color: rgba(40, 40, 40, 1);
+	font-family: 'Georgia', serif;
+	font-size: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+#storybody {
+	width: 300px;
+}
+
+#share {
+	height: 65px;
+	width: 400px;
+	background-color: rgba(40, 40, 40, .8);
+	border-radius: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#share a img {
+	width: 50px;
+	margin: 0px 10px 0px 10px;
+	padding: 5px 0px 0px 0px;
+}
+
+}
