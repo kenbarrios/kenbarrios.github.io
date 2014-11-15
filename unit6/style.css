@@ -489,7 +489,7 @@ BELOW IS THE RESPONSIVE DESIGN CODE
 
 /*====================================
 BELOW is responsive design for 
-IPHONE 5 - Horizontal 
+IPHONE 5 - Horizontal HomePage
 =====================================*/
 
 @media (max-width: 700px) {
@@ -692,9 +692,69 @@ footer a {
 
 }
 
+/*========================================
+BELOW is CSS for the Story Page
+IPHONE Horizontal 
+=========================================*/
+
+@media (max-width: 700px) {
+
+article section p {
+	margin: 18px 0px 18px 0px;
+}
+
+.story {
+	height: 250px;
+	width: 550px;
+	background-image: url(images/guerrero-mass-grave.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.storyarticle {
+	width: 550px;
+}
+
+.storytitle {
+	height: 100px;
+	width: 550px;
+	background-color: rgba(40, 40, 40, 1);
+	color: white;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 40px;
+	margin: 15px 0px 15px 25px;
+	padding: 5px;
+	text-align: left;
+}
+
+.storybody {
+	width: 550px;
+	color: rgba(40, 40, 40, 1);
+	font-family: 'Georgia', serif;
+	font-size: 25px;
+	margin-left: 25px;
+	text-align: left;
+}
+
+#share {
+	height: 65px;
+	width: 400px;
+	background-color: rgba(40, 40, 40, .8);
+	border-radius: 30px;
+}
+
+#share a img {
+	width: 50px;
+	margin: 0px 10px 0px 10px;
+	padding: 5px 0px 0px 0px;
+}
+
 /*=================================
 BELOW is the responsive code for
-IPHONE 5 - VERTICAL 
+IPHONE 5 - VERTICAL Home Page
 ==================================*/
 
 @media (max-width: 320px) {
