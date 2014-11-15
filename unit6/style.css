@@ -572,7 +572,7 @@ footer a {
 	margin-top: 10px;
 	margin-left: 28px;
 	margin-right: auto;
-	padding: 0px;
+	padding: 10px;
 	text-decoration: none;
 	height: 70px;
 	width: 30%;
@@ -602,7 +602,7 @@ footer a {
 	margin: 5px;
 	padding: 5px;
 	height: 100px;
-	width: 40%;
+	width: 30%;
 }
 
 .archsec + .archsec {
@@ -618,7 +618,7 @@ footer a {
 	background-image: url(images/guerrero-mass-grave.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 550px;
+	height: 450px;
 	width: 850px;
 	margin-left: auto;
 	margin-right: auto;
@@ -629,8 +629,8 @@ footer a {
 	background-image: url(images/hong-kong-umbrella-rev.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 420px;
-	width: 950px;
+	height: 400px;
+	width: 850px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -639,8 +639,8 @@ footer a {
 	background-image: url(images/ebola.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 420px;
-	width: 950px;
+	height: 400px;
+	width: 850px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -649,8 +649,8 @@ footer a {
 	background-image: url(images/anita-sarkeesian.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 420px;
-	width: 950px;
+	height: 400px;
+	width: 850px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -659,8 +659,8 @@ footer a {
 	background-image: url(images/kobane-resistance.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 420px;
-	width: 950px;
+	height: 400px;
+	width: 850px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -669,15 +669,15 @@ footer a {
 	background-image: url(images/blackstone.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 420px;
-	width: 950px;
+	height: 400px;
+	width: 850px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 #blurb {
 	height: 100px;
-	width: 950px;
+	width: 850px;
 }
 
 #about {
