@@ -492,7 +492,7 @@ BELOW is the responsive code for
 IPHONE 5 - VERTICAL 
 ==================================*/
 
-@media (max-width: 400px) {
+@media (max-width: 320px) {
 body {
 	text-align: center;
 	margin-left: auto;
@@ -702,7 +702,7 @@ body {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 450px;
+	width: 550px;
 }
 
 nav {
@@ -715,7 +715,7 @@ nav {
 	position: fixed;
 	text-align: center;
 	height: 50px;
-	width: 450px;
+	width: 550px;
 }
 
 nav a {
@@ -792,7 +792,7 @@ footer a {
 	padding: 15px 0px 0px 0px;
 	text-align: center;
 	height: 50px;
-	width: 450px;
+	width: 550px;
 }
 
 .archsec a {
@@ -821,8 +821,8 @@ footer a {
 	background-image: url(images/guerrero-mass-grave.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 400px;
-	width: 450px;
+	height: 300px;
+	width: 550px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
