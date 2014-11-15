@@ -739,6 +739,10 @@ article section p {
 	text-align: left;
 }
 
+#storybody {
+	width: 550px;
+}
+
 #share {
 	height: 65px;
 	width: 400px;
