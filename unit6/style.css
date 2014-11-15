@@ -492,12 +492,12 @@ BELOW is responsive design for
 IPAD - Horizontal HomePage
 =====================================*/
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
 body {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 950px;
+	width: 850px;
 }
 
 nav {
@@ -510,7 +510,7 @@ nav {
 	position: fixed;
 	text-align: center;
 	height: 50px;
-	width: 950px;
+	width: 850px;
 }
 
 nav a {
@@ -556,7 +556,7 @@ section h3 {
 
 footer {
 	height: 310px;
-	width: 950px;
+	width: 850px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
@@ -589,7 +589,7 @@ footer a {
 	padding: 15px 0px 0px 0px;
 	text-align: center;
 	height: 50px;
-	width: 550px;
+	width: 850px;
 }
 
 .archsec a {
@@ -619,7 +619,7 @@ footer a {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 550px;
-	width: 950px;
+	width: 850px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
