@@ -149,6 +149,13 @@ footer a {
 	nav {
 		height: 23px;
 	}
+		#topstory {
+		height: 275px;
+	}
+
+	.bstories {
+		height: 250px;
+	}
 
 	#blurb {
 		font-size: 17px;
@@ -160,13 +167,6 @@ footer a {
 		float: none;
 		font-size: 35px;
 		width: 65%;
-	}
-	#topstory {
-		height: 275px;
-	}
-
-	.bstories {
-		height: 250px;
 	}
 }
 
