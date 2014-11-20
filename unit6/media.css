@@ -195,6 +195,10 @@ footer a {
 }
 
 @media only screen and (max-width: 320px) {
+	footer {
+		margin-bottom: 10px;
+	}
+
 	#navanvil {
 		margin-right: 20%;
 	}
