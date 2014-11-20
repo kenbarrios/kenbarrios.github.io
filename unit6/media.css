@@ -1,0 +1,198 @@
+/*=================================
+===================================
+BELOW IS THE RESPONSIVE DESIGN CODE
+===================================
+==================================*/
+
+/*====================================
+BELOW is responsive design for 
+IPAD - Horizontal HomePage
+=====================================*/
+
+@media only screen and (max-width: 1122px) {
+	#date {
+	 margin-left: 10%;
+	 margin-right: 9%;
+}
+footer a {
+	font-size: 50px;
+	margin: 10px 10px 0px 10px;
+	padding: 6px;
+	text-decoration: none;
+	height: 60px;
+	width: 30%;
+}
+#blurb {
+		font-size: 20px;
+}
+
+}
+
+@media only screen and (max-width: 1006px) {
+	footer a {
+		font-size: 45px;
+		margin: 10px 10px 0px 10px;
+		padding: 4px;
+		text-decoration: none;
+		height: 60px;
+		width: 30%;
+}	
+	#topstory {
+		height: 450px;
+	}
+	.bstories {
+		height: 400px;
+	}
+}
+
+@media only screen and (max-width: 957px) {
+	#date {
+	 margin-left: 7%;
+	 margin-right: 8%;
+}
+}
+
+@media only screen and (max-width: 915px) {
+	#date {
+	 margin-left: 5%;
+	 margin-right: 6%;
+}
+}
+
+@media only screen and (max-width: 882px) {
+footer a {
+	font-size: 40px;
+	margin: 10px 10px 0px 10px;
+	padding: 2px;
+	text-decoration: none;
+	height: 60px;
+	width: 30%;
+}
+}
+
+@media only screen and (max-width: 873px) {
+	#date {
+	 margin-left: 3%;
+	 margin-right: 4%;
+}
+}
+
+@media only screen and (max-width: 836px) {
+	nav {
+		height: 30px;
+	}
+	nav a {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 758px) {
+	a h1 {
+		font-size: 30px;
+	}
+footer a {
+	font-size: 35px;
+	margin: 10px 10px 0px 10px;
+	padding: 1px;
+	text-decoration: none;
+	height: 60px;
+	width: 30%;
+}
+	section h2 {
+		font-size: 30px;
+	}
+
+	section h3 {
+		font-size: 25px;
+	}
+	#topstory {
+		height: 350px;
+	}
+	.bstories {
+		height: 300px;
+	}
+
+}
+
+@media only screen and (max-width: 724px) {
+	nav {
+		height: 28px;
+	}
+	nav a {
+		font-size: 20px;
+		height: 28px;
+	}
+}
+
+@media only screen and (max-width: 716px) {
+	.archsec a {
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	footer a {
+	font-size: 25px;
+	margin: 10px 5px 0px 10px;
+	padding: 10px 1px 0px 1px;
+	text-decoration: none;
+	height: 50px;
+	width: 30%;
+}
+}
+
+@media only screen and (max-width: 593px) {
+	nav a {
+		font-size: 17px;
+	}
+
+	nav {
+		height: 23px;
+	}
+
+	#blurb {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 541px) {
+	footer a {
+		float: none;
+		font-size: 35px;
+		width: 65%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#date {
+		display: none;
+	}
+	#navanvil {
+		margin-right: 30%;
+	}
+	#navmenu {
+		margin-left: 30%;
+	}
+
+	#topstory {
+		height: 250px;
+	}
+
+	.bstories {
+		height: 220px;
+	}
+
+	.markers {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	#topstory {
+		height: 300px;
+	}
+
+	.bstories {
+		height: 280px;
+	}
+}
