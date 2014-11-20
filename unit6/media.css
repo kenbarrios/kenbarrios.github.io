@@ -164,9 +164,9 @@ footer a {
 
 @media only screen and (max-width: 541px) {
 	footer {
-		margin-bottom: 10px;
+		height: 650px;
 	}
-	
+
 	footer a {
 		float: none;
 		font-size: 35px;
