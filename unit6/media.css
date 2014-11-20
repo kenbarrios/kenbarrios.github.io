@@ -161,6 +161,13 @@ footer a {
 		font-size: 35px;
 		width: 65%;
 	}
+	#topstory {
+		height: 275px;
+	}
+
+	.bstories {
+		height: 250px;
+	}
 }
 
 @media only screen and (max-width: 500px) {
@@ -196,7 +203,7 @@ footer a {
 	}
 
 	#blurb {
-		height: 50px;
+		height: 55px;
 	}
 	#topstory {
 		height: 300px;
