@@ -190,7 +190,7 @@ footer a {
 }
 
 #topstory {
-	background-image: url(images/guerrero-mass-grave.png);
+	background-image: url(images/zocalo-protests.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 510px;
@@ -235,39 +235,47 @@ footer a {
 /*======================================
 BELOW is CSS for the Story Page*/
 
+body {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
 article section p {
 	margin: 18px 0px 18px 0px;
 }
 
-.story {
-	height: 550px;
-	width: 1230px;
-	background-image: url(images/guerrero-mass-grave.png);
+.storypic {
+	height: 500px;
+	width: 97%;
+	background-image: url(images/zocalo-protests.png);
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 40px;
 }
 
 .storyarticle {
-	width: 780px;
+	width: 100%;
 }
 
 .storytitle {
-	height: 80px;
-	width: 780px;
+	width: 62%;
 	background-color: rgba(40, 40, 40, 1);
 	color: white;
 	font-family: 'Helvetica', sans-serif;
 	font-size: 40px;
 	margin: 15px 0px 15px 25px;
+	overflow: auto;
 	padding: 5px;
 	text-align: left;
 }
 
 .storybody {
-	width: 780px;
+	width: 60%;
 	color: rgba(40, 40, 40, 1);
 	font-family: 'Georgia', serif;
 	font-size: 20px;
@@ -276,14 +284,15 @@ article section p {
 }
 
 #share {
-	height: 65px;
-	width: 400px;
+	height: 50px;
+	width: 250px;
 	background-color: rgba(40, 40, 40, .8);
 	border-radius: 30px;
+	margin-left: 19px;
 }
 
 #share a img {
-	width: 50px;
+	width: 40px;
 	margin: 0px 10px 0px 10px;
 	padding: 5px 0px 0px 0px;
 }

@@ -6,7 +6,7 @@ BELOW IS THE RESPONSIVE DESIGN CODE
 
 /*====================================
 BELOW is responsive design for 
-IPAD - Horizontal HomePage
+==============HOMEPAGE================ 
 =====================================*/
 
 @media only screen and (max-width: 1122px) {
@@ -170,7 +170,7 @@ footer a {
 	footer a {
 		float: none;
 		font-size: 35px;
-		width: 75%;
+		width: 97%;
 	}
 }
 
@@ -216,5 +216,102 @@ footer a {
 
 	.bstories {
 		height: 280px;
+	}
+}
+
+/*=====================================
+BELOW IS THE RESPONSIVE CODE FOR ======
+==============STORY PAGE===============
+======================================*/
+
+@media only screen and (max-width: 1123px) {
+	.storypic {
+		height: 460px;
+	}
+
+}
+
+@media only screen and (max-width: 1006px) {
+	.storypic {
+		height: 450px;
+	}
+
+}
+
+@media only screen and (max-width: 915px) {
+	.storytitle {
+		font-size: 35px;
+		}
+}
+
+@media only screen and (max-width: 900px) {
+	.storybody {
+		width: 65%;
+	}
+}
+
+@media only screen and (max-width: 805px) {
+	.storypic {
+		height: 400px;
+	}
+	.storytitle {
+		font-size: 30px;
+		}
+}
+
+@media only screen and (max-width: 775px) {
+	.storybody {
+		width: 70%;
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 758px) {
+	.storypic {
+		height: 350px;
+	}
+}
+
+@media only screen and (max-width: 593px) {
+	.storypic {
+		height: 265px;
+	}
+
+	.storytitle {
+		width: 67%;
+	}
+
+	.storybody {
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.storybody {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 511px) {
+	.storypic {
+		height: 250;
+	}
+
+	.storytitle {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.storypic {
+		height: 300px;
+	}
+	.storytitle {
+		font-size: 18px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
 	}
 }
