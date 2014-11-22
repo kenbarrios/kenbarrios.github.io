@@ -9,7 +9,7 @@ BELOW is responsive design for
 ==============HOMEPAGE================ 
 =====================================*/
 
-@media only screen and (max-width: 1122px) {
+@media only screen and (max-width: 1152px) {
 	#date {
 	 margin-left: 10%;
 	 margin-right: 9%;
@@ -45,18 +45,24 @@ footer a {
 	}
 }
 
-@media only screen and (max-width: 957px) {
+@media only screen and (max-width: 985px) {
 	#date {
 	 margin-left: 7%;
 	 margin-right: 8%;
 }
 }
 
-@media only screen and (max-width: 915px) {
+@media only screen and (max-width: 938px) {
 	#date {
 	 margin-left: 5%;
 	 margin-right: 6%;
 }
+}
+
+@media only screen and (max-width: 938px) {
+	#date {
+	 margin-left: 3%;
+	 margin-right: 4%;
 }
 
 @media only screen and (max-width: 882px) {
@@ -70,14 +76,9 @@ footer a {
 }
 }
 
-@media only screen and (max-width: 873px) {
-	#date {
-	 margin-left: 3%;
-	 margin-right: 4%;
-}
 }
 
-@media only screen and (max-width: 836px) {
+@media only screen and (max-width: 860px) {
 	nav {
 		height: 30px;
 	}
@@ -114,7 +115,7 @@ footer a {
 
 }
 
-@media only screen and (max-width: 724px) {
+@media only screen and (max-width: 743px) {
 	nav {
 		height: 28px;
 	}
@@ -141,7 +142,7 @@ footer a {
 }
 }
 
-@media only screen and (max-width: 593px) {
+@media only screen and (max-width: 609px) {
 	nav a {
 		font-size: 17px;
 	}
@@ -174,7 +175,7 @@ footer a {
 	}
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 512px) {
 	#date {
 		display: none;
 	}
@@ -313,5 +314,88 @@ BELOW IS THE RESPONSIVE CODE FOR ======
 		margin-left: auto;
 		margin-right: auto;
 		width: 90%;
+	}
+}
+
+/*==========================================
+===BELOW IS THE RESPONSIVE CODE FOR=========
+=====THE ABOUT US PAGE======================
+===========================================*/
+
+@media only screen and (max-width: 1217px) {
+	#anvil {
+		width: 45%;
+	}
+	#aboutsection {
+		height: 400px;
+		width: 50%;
+	}
+
+	#aboutsection p {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 910px) {
+	#aboutsection p {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 795px) {
+	#anvil {
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		height: 350px;
+		width: 77%;
+	}
+
+	#anvil img {
+		height: 300px;
+	}
+
+	#aboutsection {
+		height: 320px;
+		width: 77%;
+		float: none;
+		margin-top: -40px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media only screen and (max-width: 710px) {
+	#aboutsection p {
+		font-size: 18px
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	#aboutsection {
+		height: 350px;
+	}
+}
+
+@media only screen and (max-width: 490px) {
+	#aboutsection {
+		height: 375px;
+		margin-top: 20px;
+	}
+
+	#anvil {
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 472px) {
+	#aboutsection {
+		height: 400px;
+	}
+}
+
+@media only screen and (max-width: 440px) {
+	#aboutsection {
+		height: 430px;
 	}
 }
