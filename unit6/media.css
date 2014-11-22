@@ -348,7 +348,7 @@ BELOW IS THE RESPONSIVE CODE FOR ======
 		margin-left: auto;
 		margin-right: auto;
 		height: 350px;
-		width: 77%;
+		width: 90%;
 	}
 
 	#anvil img {
@@ -357,7 +357,7 @@ BELOW IS THE RESPONSIVE CODE FOR ======
 
 	#aboutsection {
 		height: 320px;
-		width: 77%;
+		width: 97%;
 		float: none;
 		margin-top: -40px;
 		margin-right: auto;
@@ -396,6 +396,6 @@ BELOW IS THE RESPONSIVE CODE FOR ======
 
 @media only screen and (max-width: 440px) {
 	#aboutsection {
-		height: 430px;
+		height: 450px;
 	}
 }
