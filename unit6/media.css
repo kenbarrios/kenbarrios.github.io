@@ -430,5 +430,8 @@ THE SUBSCRIBER PAGE=================
 	#subPlans {
 		height: 600px;
 	}
+	#subImage {
+		margin-top: 10px;
+	}
 }
 
