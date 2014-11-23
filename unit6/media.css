@@ -422,13 +422,14 @@ THE SUBSCRIBER PAGE=================
 	}
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 400px) {
 	#scribebody {
 		height: 1300px;
 	}
 
 	#subPlans {
 		height: 600px;
+		padding-bottom: 10px
 	}
 	#subImage {
 		margin-top: 10px;
