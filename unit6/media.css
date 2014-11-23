@@ -422,6 +422,31 @@ THE SUBSCRIBER PAGE=================
 	}
 }
 
+@media only screen and (max-width: 400px) {
+	#scribebody {
+		height: 1300px;
+	}
+	#subPlans {
+		height: 500px;
+		padding-bottom: 10px;
+	}
+	#subinone {
+		display: inline-block;
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#subintwo {
+		display: inline-block;
+		width: 98%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#subImage {
+		margin-top: 10px;
+	}
+}
+
 @media only screen and (max-width: 320px) {
 	#scribebody {
 		height: 1300px;
@@ -441,6 +466,7 @@ THE SUBSCRIBER PAGE=================
 		width: 98%;
 		margin-left: auto;
 		margin-right: auto;
+		padding-bottom: 20px;
 	}
 	#subImage {
 		margin-top: 10px;
