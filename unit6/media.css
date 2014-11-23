@@ -456,13 +456,13 @@ THE SUBSCRIBER PAGE=================
 		padding-bottom: 10px;
 	}
 	#subinone {
-		display: inline-block;
+		display: block;
 		width: 95%;
 		margin-left: auto;
 		margin-right: auto;
 	}
 	#subintwo {
-		display: inline-block;
+		display: block;
 		width: 98%;
 		margin-left: auto;
 		margin-right: auto;
