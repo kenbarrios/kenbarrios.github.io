@@ -426,10 +426,9 @@ THE SUBSCRIBER PAGE=================
 	#scribebody {
 		height: 1300px;
 	}
-
 	#subPlans {
-		height: 600px;
-		padding-bottom: 10px
+		padding-bottom: 10px;
+	}
 	}
 	#subImage {
 		margin-top: 10px;
