@@ -426,5 +426,9 @@ THE SUBSCRIBER PAGE=================
 	#scribebody {
 		height: 1300px;
 	}
+
+	#subPlans {
+		height: 550px;
+	}
 }
 
