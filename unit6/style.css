@@ -301,29 +301,48 @@ article section p {
 /*=====================================
 BELOW is CSS for About Us Page */
 
-#aboutbody {
-	width: 100%;
-	height: 1000px;
+/*#aboutnav {
+	background-color: rgba(178, 60, 18, 1);
+	font-family: 'Syncopate', sans-serif;
+	margin-left: 1.5%;
+	margin-right: auto;
+	margin-top: -10px;
+	padding: 7px 0px 0px 0px;
+	position: fixed;
+	text-align: center;
+	height: 32px;
+	width: 97%;
 }
 
-#anvil {
-	height: 0px;
-	margin: 40px 0px 0px 19px;
+#aboutnav a {
+	color: rgba(250, 250, 250, 1);
+	display: inline-block;
+	font-size: 29px;
+	text-decoration: none;
+	text-align: center;
+}*/
+
+#aboutbody {
+	margin-top:40px;
+}
+
+#aboutimg {
+	height: 475px;
+	width: 47%;
+	display: inline-block;
+	float: left;
+	margin: 0px 0px 0px 19px;
 	padding: 0px;
-	text-align: left;
-	width: 55%;
 }
-#anvil img {
-	width: 100%;
-}
+
 
 #aboutsection {
-	height: 500px;
-	width: 41%;
+	height: 475px;
+	width: 45%;
 	background-color: rgba(178, 60, 18, 1);
 	float: right;
+	margin-top:;
 	margin-right: 19px;
-	overflow: auto;
 }
 
 #aboutsection h1 {
@@ -363,12 +382,6 @@ input[type="submit"] {
 	font-size:20px;
 	padding: 3px;
 	width: 100px;
-}
-
-#aboutfooter {
-	float: left;
-	margin-top: 20px;
-	text-align: center;
 }
 
 /*==================================
