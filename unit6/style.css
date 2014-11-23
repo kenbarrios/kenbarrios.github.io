@@ -377,7 +377,7 @@ BELOW is CSS for Subscribe Page*/
 }
 
 .plantype {
-	width: 350px;
+	width: 90%;
 	background-color: rgba(40, 40, 40, 1);
 	border-radius: 20px;
 	color: white;
@@ -388,44 +388,30 @@ BELOW is CSS for Subscribe Page*/
 }
 
 .mailing {
-	text-align: center;
+	font-size: 25px;
+	text-align: left;
 }
 
 #scribebody {
-	width: 1230px;
+	width: 100%;
+	margin-top: 40px;
 }
 
-#scribenav {
-	background-color: rgba(178, 60, 18, 1);
-	font-family: 'Syncopate', sans-serif;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -60px;
-	padding: 7px 0px 0px 0px;
-	position: ;
-	text-align: center;
-	height: 32px;
-	width: 1230px;
-}
-
-#scribenav a {
-	color: rgba(250, 250, 250, 1);
-	font-size: 29px;
-	text-decoration: none;
-}
 
 #subPlans {
 	height: 515px;
-	width: 525px;
-	margin-left: 20px;
-	margin-top: 60px;
+	width: 40%;
+	display: inline-block;
+	margin-left: -5%;
+	margin-top: 0px;
 	text-align: left;
 }
 
 #subImage {
 	height: 515px;
-	width: 600px;
+	width: 50%;
+	display: inline-block;
 	float: right;
-	margin-top: -505px;
-	margin-right: 40px;
+	margin-top: 0px;
+	margin-right: 1.5%;
 }

@@ -389,3 +389,36 @@ BELOW IS THE RESPONSIVE CODE FOR ======
 		height: 450px;
 	}
 }
+
+/*==================================
+====BELOW IS THE RESPONSIVE CODE FOR
+THE SUBSCRIBER PAGE=================
+==================================*/
+
+@media only screen and (max-width: 795px) {
+	#subPlans {
+		height: 460px;
+		width: 96%;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	#subImage {
+		margin-top: 3px;
+		height: 300px;
+		width: 97%;
+	}
+
+	.mailing {
+		margin-left: 3%;
+	}
+
+	#subinone {
+		margin-left: 3%;
+		margin-right: auto;
+	}
+	#subintwo {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
