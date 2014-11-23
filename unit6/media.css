@@ -422,9 +422,9 @@ THE SUBSCRIBER PAGE=================
 	}
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 350px) {
 	#scribebody {
-		height: 1200px;
+		height: 1300px;
 	}
 }
 
