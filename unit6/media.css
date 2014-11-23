@@ -295,7 +295,7 @@ BELOW IS THE RESPONSIVE CODE FOR ======
 
 @media only screen and (max-width: 550px) {
 	.storybody {
-		font-size: 16px;
+		font-size: 17px;
 	}
 }
 
@@ -417,7 +417,7 @@ THE SUBSCRIBER PAGE=================
 		margin-right: auto;
 	}
 	#subintwo {
-		margin-left: auto;
+		margin-left: 3%;
 		margin-right: auto;
 	}
 }
@@ -430,6 +430,17 @@ THE SUBSCRIBER PAGE=================
 		height: 500px;
 		padding-bottom: 10px;
 	}
+	#subinone {
+		display: inline-block;
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#subintwo {
+		display: inline-block;
+		width: 98%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	#subImage {
 		margin-top: 10px;
