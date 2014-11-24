@@ -129,7 +129,7 @@ footer a {
 	border-radius: 10px;
 	color: white;
 	display: inline-block;
-	float: left;
+	/*float: left;*/
 	font-family: 'Helvetica', sans-serif;
 	font-size: 60px;
 	margin: 10px 10px 0px 10px;
