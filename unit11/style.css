@@ -168,20 +168,60 @@ nav section a {
 	text-align: center;
 }
 
+.subhero {
+	width: 99%;
+	height: 380px;
+	background-color: rgba(25, 124, 166, 1);
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
 
+.subhero div {
+	width: 21%;
+	height: 350px;
+	display: inline-block;
+	background-color: orange;
+	margin: 15px 1%;
+}
 
+.subhero h2 {
+	background-color: rgba(0, 0, 0, .3);
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	margin-top: 155px;
+	padding: 0%;
+}
 
+#trending {
+	background-image: url(images/handsup.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
+#action {
+	background-image: url(images/reflect.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
+#group {
+	background-image: url(images/group.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-
-
-
-
-
-
-
-
+#study {
+	background-image: url(images/action.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 
 
