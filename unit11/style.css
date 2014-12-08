@@ -234,6 +234,32 @@ nav section a {
 	background-size: cover;
 }
 
+#weare {
+	width: 99%;
+	height: 400px;
+	background-image: url(images/weare.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+#weare h2 {
+	background-color: rgba(0, 0, 0, .7);
+	display: inline-block;
+	margin-top: 150px;
+	padding: 10px;
+}
+
+#weare h2 span {
+	font-family: 'Montserrat', sans-serif;
+}
+
 footer {
 	width: 99%;
 	background-color: rgba(43, 45, 46, 1);
