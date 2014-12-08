@@ -61,7 +61,6 @@ nav {
 	width: 99%;
 	height: 50px;
 	background-color: rgba(15, 76, 102, 1);
-	border-box: solid;
 	display: inline-block;
 	font-family: 'Helvetica', sans-serif;
 	text-align: center;
@@ -72,8 +71,11 @@ nav a {
 	display: inline-block;
 }
 
+nav a:hover {
+	color: black;
+}
+
 nav section {
-	border-box: solid;
 	display: block;
 	margin-top: -37px;
 	margin-left: 67%;
@@ -81,7 +83,6 @@ nav section {
 
 nav section a {
 	height: 35px;
-	background-color: blue;
 	display: inline-block;
 	font-family: 5px;
 }
@@ -141,7 +142,7 @@ nav section a {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 50px;
 	font-weight: bold;
-	margin-top: 120px;
+	margin-top: 110px;
 	padding: 15px;
 }
 
@@ -170,9 +171,9 @@ nav section a {
 
 .subhero {
 	width: 99%;
-	height: 380px;
+	height: 400px;
 	background-color: rgba(25, 124, 166, 1);
-	margin-top: 30px;
+	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -181,9 +182,10 @@ nav section a {
 .subhero div {
 	width: 21%;
 	height: 350px;
+	border: solid white 2px;
+	border-radius: 5px;
 	display: inline-block;
-	background-color: orange;
-	margin: 15px 1%;
+	margin: 25px 1%;
 }
 
 .subhero h2 {
@@ -193,6 +195,11 @@ nav section a {
 	font-size: 30px;
 	margin-top: 155px;
 	padding: 0%;
+}
+
+.subhero h2:hover {
+	background-color: white;
+	color: black;
 }
 
 #trending {
@@ -223,6 +230,33 @@ nav section a {
 	background-size: cover;
 }
 
+footer {
+	width: 99%;
+	background-color: rgba(43, 45, 46, 1);
+	color: white;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer div {
+	display: inline-block;
+	padding: 10px 10%;
+	vertical-align: text-top;
+}
+
+footer h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 23px;
+	padding: 5px 0 20px 0;
+	text-decoration: underline;
+}
+
+footer div a {
+	color: white;
+	display: block;
+	padding-top: 5px;
+}
 
 
 
