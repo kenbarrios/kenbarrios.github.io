@@ -71,17 +71,17 @@ nav a {
 	display: inline-block;
 }
 
-nav a:hover {
-	color: black;
+nav div a:hover {
+	background-color: rgba(0, 179, 255, 1);
 }
 
-nav section {
+nav div {
 	display: block;
 	margin-top: -37px;
 	margin-left: 67%;
 }
 
-nav section a {
+nav div a {
 	height: 35px;
 	display: inline-block;
 	font-family: 5px;
@@ -97,28 +97,10 @@ nav section a {
 	margin: 8px 75% 0px 0px;
 }
 
-#signup {
+.navbuttons {
 	width: 103px;
 	height: 30px;
-	background-color: rgba(255, 23, 63, 1);
-	border-radius: 5px;
-	font-size: 25px;
-	padding: 7px 7px 1px 7px;
-}
-
-#login {
-	width: 103px;
-	height: 30px;
-	background-color: rgba(0, 179, 255, 1);
-	border-radius: 5px;
-	font-size: 25px;
-	padding: 7px 7px 1px 7px;
-}
-
-#menu {
-	width: 103px;
-	height: 30px;
-	background-color: rgba(204, 195, 20, 1);
+	background-color: transparent;
 	border-radius: 5px;
 	font-size: 25px;
 	padding: 7px 7px 1px 7px;
@@ -131,6 +113,7 @@ nav section a {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -146,6 +129,10 @@ nav section a {
 	padding: 15px;
 }
 
+#hero h1:hover {
+	background-color: rgba(15, 76, 102, .7);
+}
+
 #hero a {
 	border: solid white 3px;
 	color: white;
@@ -155,12 +142,11 @@ nav section a {
 	font-weight: bold;
 	margin-top: 140px;
 	padding: 8px;
-	text-shadow: 2px 2px #000000;
-	box-shadow: 2px 2px #000000;
 }
 
 #hero a:hover {
-	background-color: rgba(255, 255, 255, .5);
+	text-shadow: 2px 2px #000000;
+	box-shadow: 2px 2px #000000;
 }
 
 #hero section {
@@ -175,8 +161,8 @@ nav section a {
 
 .subhero {
 	width: 99%;
-	height: 400px;
-	background-color: rgba(25, 124, 166, 1);
+	height: 500px;
+	background-color: rgba(15, 76, 102, 1);
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
@@ -185,9 +171,8 @@ nav section a {
 
 .subhero div {
 	width: 21%;
-	height: 350px;
-	border: solid white 2px;
-	border-radius: 5px;
+	height: 450px;
+	border: solid rgba(5, 66, 92, 1) 5px;
 	display: inline-block;
 	margin: 25px 1%;
 }
@@ -197,13 +182,13 @@ nav section a {
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
-	margin-top: 155px;
-	padding: 0%;
+	font-weight: bold;
+	margin-top: 200px;
+	padding: 10px 0;
 }
 
 .subhero h2:hover {
-	background-color: white;
-	color: black;
+	background-color: rgba(15, 76, 102, .7);
 }
 
 #trending {
@@ -236,7 +221,7 @@ nav section a {
 
 #weare {
 	width: 99%;
-	height: 400px;
+	height: 500px;
 	background-image: url(images/weare.png);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -252,8 +237,12 @@ nav section a {
 #weare h2 {
 	background-color: rgba(0, 0, 0, .7);
 	display: inline-block;
-	margin-top: 150px;
-	padding: 10px;
+	margin-top: 200px;
+	padding: 15px;
+}
+
+#weare h2:hover {
+	background-color: rgba(15, 76, 102, .7);
 }
 
 #weare h2 span {
@@ -270,29 +259,29 @@ footer {
 }
 
 footer div {
+	width: 100px;
 	display: inline-block;
-	padding: 10px 10%;
+	padding: 10px 0;
 	vertical-align: text-top;
+	text-align: left;
 }
 
 footer h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 23px;
 	padding: 5px 0 20px 0;
-	text-decoration: underline;
 }
 
 footer div a {
 	color: white;
 	display: block;
 	padding-top: 5px;
+	text-align: left;
 }
 
 footer div a:hover {
-	color: yellow;
+	background-color: rgba(15, 76, 102, .7);
 }
-
-
 
 
 
