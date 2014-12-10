@@ -78,7 +78,7 @@ nav div a:hover {
 nav div {
 	display: block;
 	margin-top: -37px;
-	margin-left: 67%;
+	margin-left: 71%;
 }
 
 nav div a {
@@ -123,8 +123,8 @@ nav li {
 }
 
 nav #login { 
-	width: 103px;
-	height: 30px;
+	width: 117px;
+	height: 38px;
 	background-color: transparent;
 	display: inline-block;
 	border-radius: 5px;
