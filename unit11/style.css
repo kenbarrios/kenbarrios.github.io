@@ -71,10 +71,6 @@ nav a {
 	display: inline-block;
 }
 
-nav div a:hover {
-	background-color: rgba(0, 179, 255, 1);
-}
-
 nav div {
 	display: block;
 	margin-top: -37px;
@@ -85,6 +81,10 @@ nav div a {
 	height: 35px;
 	display: inline-block;
 	font-family: 5px;
+}
+
+nav div a:hover {
+	background-color: rgba(0, 179, 255, 1);
 }
 
 #logo {
