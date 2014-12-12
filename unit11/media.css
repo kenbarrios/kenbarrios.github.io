@@ -225,9 +225,9 @@ BELOW is responsive design for========
 		margin-top: -1.5px;
 	}
 
-	nav div li {
-		
-	}
+	nav li #login-content { 
+ 	margin: 55px 5% 0 0;
+}
 }
 
 @media only screen and (max-width: 537px) {
