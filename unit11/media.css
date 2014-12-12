@@ -277,3 +277,9 @@ BELOW is responsive design for========
 		margin-top: 20px;
 	}
 }
+
+@media only screen and (max-width: 320px) {
+	nav div {
+		margin-left: 5%;
+	}
+}
