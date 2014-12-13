@@ -248,6 +248,10 @@ BELOW is responsive design for========
 		height: 300px;
 	}
 
+	#hero h1 {
+		margin-top: 20px;
+	}
+
 	.subhero {
 		height: 1045px;
 	}
@@ -273,13 +277,96 @@ BELOW is responsive design for========
 		margin-left: 11%;
 	}
 
-	#hero h1 {
-		margin-top: 20px;
-	}
 }
 
 @media only screen and (max-width: 320px) {
 	nav div {
 		margin-left: 3%;
+	}
+}
+
+/*===========================================
+=============================================
+======MEDIA CODE FOR TRENDING PAGE===========
+=============================================
+============================================*/
+
+@media only screen and (max-width: 1120px) {
+	.trendwho h1 {
+		margin-right: 31%;
+	}
+}
+
+@media only screen and (max-width: 1035px) {
+	.trendwho h1 {
+		margin-right: 29%;
+	}
+}
+
+@media only screen and (max-width: 975px) {
+	.trendwho h1 {
+		margin-right: 27%;
+	}
+}
+
+@media only screen and (max-width: 935px) {
+	.trendwho h1 {
+		margin-right: 25%;
+	}
+}
+
+@media only screen and (max-width: 890px) {
+	.trendwho h1 {
+		margin-right: 22%;
+	}
+}
+
+@media only screen and (max-width: 835px) {
+	.trendwho h1 {
+		margin-right: 19%;
+	}
+}
+
+@media only screen and (max-width: 795px) {
+	.trendwho h1 {
+		margin-right: 16%;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.trendwho h1 {
+		margin-right: 13%;
+	}
+}
+
+@media only screen and (max-width: 705px) {
+	.trendwho h1 {
+		margin-right: 10%;
+	}
+}
+
+@media only screen and (max-width: 672px) {
+	.trendwho h1 {
+		margin-right: 7%;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.trendwho h1 {
+		margin-right: 4%;
+	}
+}
+
+@media only screen and (max-width: 620px) {
+	.trendwho img {
+		margin: 0px;
+	}
+	.trendwho h1 {
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.trendinfo {
+		height: 920px;
 	}
 }

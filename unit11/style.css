@@ -431,7 +431,7 @@ footer div a:hover {
 .trendbanner {
 	width: 90%;
 	margin-top: 10px;
-	border: solid rgba(5, 66, 92, 1) 5px;
+	border: solid rgba(5, 66, 92, 1) 3px;
 }
 
 .trendtitle {
@@ -502,9 +502,9 @@ footer div a:hover {
 }
 
 .trendblurb {
-	width: 50%;
-	height: 400px;
-	border: solid rgba(5, 66, 92, 1) 5px;
+	width: 40%;
+	height: 500px;
+	border: solid rgba(5, 66, 92, 1) 3px;
 	font-family: 'Georgia', serif;
 	margin-left: auto;
 	margin-right: auto;
@@ -522,4 +522,84 @@ footer div a:hover {
 	font-size: 16px;
 	margin-top: 10px;
 	padding: 8px;
+}
+
+.trendhost, .trendattend {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -505.6px;
+	padding: 0px 5px 0px 5px;
+}
+
+.trendhost {
+	width: 22.5%;
+	height: 500px;
+	background-color: rgba(230, 230, 230, 1);
+	border: solid rgba(220, 220, 220, 1) 3px;
+	display: block;
+	font-family: 'Helvetica', sans-serif;
+	float: left;
+	margin-left: 1%;
+	text-align: left;
+}
+
+.trendhost h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.trendhost img {
+	padding: 15px 0px 15px 15px;
+}
+
+.trendattend {
+	width: 22.5%;
+	height: 500px;
+	background-color: rgba(230, 230, 230, 1);
+	border: solid rgba(220, 220, 220, 1) 3px;
+	display: block;
+	font-family: 'Helvetica', sans-serif;
+	float: right;
+	margin-right: 1%;
+	overflow: auto;
+	text-align: left;
+}
+
+.trendattend a h2 {
+	color: rgba(255, 255, 255, 1);
+}
+
+.trendattend h2 {
+	width: 103px;
+	height: 30px;
+	background-color: rgba(0, 179, 255, 1);
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.trendattend h2:hover {
+	background-color: transparent;
+}
+
+.trendattend a h2 {
+	padding: 15px 5px 0px 5px
+}
+
+
+.trendnumbers {
+	text-align: center;
+	background-color: rgba(220, 220, 220, 1);
+	margin-bottom: 10px;
+	padding: 7px;
+}
+
+iframe {
+	border: solid rgba(5, 66, 92, 1) 3px;
+	margin-top: 15px;
 }
