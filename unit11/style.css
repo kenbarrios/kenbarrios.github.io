@@ -586,6 +586,7 @@ footer div a:hover {
 }
 
 .trendattend a h2 {
+	font-weight: bold;
 	padding: 15px 5px 0px 5px
 }
 
