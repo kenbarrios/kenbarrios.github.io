@@ -603,6 +603,7 @@ footer div a:hover {
 
 .attendees p {
 	padding-left: 15px;
+	padding-bottom: 10px;
 	border-bottom: solid rgba(220, 220, 220, 1) 3px;
 }
 
