@@ -334,3 +334,9 @@ BELOW is responsive design for========
 		height: 350px;
 	}
 }
+
+@media only screen and (max-width: 400px) {
+	.trendbanner {
+		height: 250px;
+	}
+}
