@@ -429,82 +429,56 @@ footer div a:hover {
 ======================================*/
 
 .trendbanner {
-	width: 90%;
+	width: 75%;
+	height: 500px;
 	margin-top: 10px;
 	border: solid rgba(5, 66, 92, 1) 3px;
 }
 
-.trendtitle {
+.trenddetails {
 	width: 99%;
-	background-color: rgba(15, 76, 102, 1);
-	color: rgba(255, 255, 255, 1);
+	background-color: rgba(230, 230, 230, 1);
+	border: solid rgba(220, 220, 220, 1) 3px;
+	color: rgba(15, 76, 102, 1);
 	font-family: 'Helvetica', sans-serif;
-	font-size: 40px;
-	margin-left: auto;
-	margin-right: auto;
+	font-weight: bold;
 	margin-top: 10px;
-	padding: 8px 0px 8px 0px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.trendwho {
-	width: 99%;
-	height: 115px;
-	background-color: rgba(15, 76, 102, 1);
-	font-family: 'Helvetica', sans-serif;
+.trenddetails hr {
+	width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.trenddetails h1 {
+	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
-	margin-left: auto;
-	margin-right: auto;
+	padding: 10px;
 }
 
-.trendwho img, .trendwho h1 {
-	display: block;
-
-}
-
-.trendwho img {
-	background-color: rgba(255, 255, 255, 1);
+.trenddetails li {
 	display: inline-block;
-	margin: 7.5px 40% 0px 0px;
+	font-size: 20px;
+	padding: 10px
 }
 
-.trendwho h1 {
-	width: 340px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -60px;
+.trenddetails div {
+	padding: 15px;
 }
 
-.trendwho a {
-	color: rgba(255, 255, 255, 1);
-}
-
-.trendaww, .trendaww a {
-	background-color: rgba(15, 76, 102, 1);
-	color: rgba(255, 255, 255, 1);
-	text-decoration: none;
-}
-
-.trendaww {
-	width: 99%;
-	height: 35px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.trendaww p {
-	border-left: solid white 1px;
-	border-right: solid white 1px;
-	display: inline-block;
-	font-family: 'Georgia', serif;
-	font-size: 22px;
-	margin: 0px 10px 0px 10px;
-	padding: 0px 7px;
+.trenddetails a {
+	color: rgba(15, 76, 102, 1);
+	font-size: 20px;
 }
 
 .trendblurb {
-	width: 40%;
+	width: 44%;
 	height: 500px;
 	border: solid rgba(5, 66, 92, 1) 3px;
+	box-sizing: border-box;
 	font-family: 'Georgia', serif;
 	margin-left: auto;
 	margin-right: auto;
@@ -520,11 +494,19 @@ footer div a:hover {
 
 .trendblurb p {
 	font-size: 16px;
+	line-height: 23px;
 	margin-top: 10px;
 	padding: 8px;
 }
 
 .trendhost, .trendattend {
+	width: 22.5%;
+	height: 500px;
+	background-color: rgba(230, 230, 230, 1);
+	border: solid rgba(220, 220, 220, 1) 3px;
+	box-sizing: border-box;
+	display: block;
+	font-family: 'Helvetica', sans-serif;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: -505.6px;
@@ -532,12 +514,6 @@ footer div a:hover {
 }
 
 .trendhost {
-	width: 22.5%;
-	height: 500px;
-	background-color: rgba(230, 230, 230, 1);
-	border: solid rgba(220, 220, 220, 1) 3px;
-	display: block;
-	font-family: 'Helvetica', sans-serif;
 	float: left;
 	margin-left: 1%;
 	text-align: left;
@@ -554,13 +530,15 @@ footer div a:hover {
 	padding: 15px 0px 15px 15px;
 }
 
+.trendhost a {
+	word-wrap: break-word;
+}
+
+.trendhost h2, .trendhost p {
+	padding-left: 15px;
+}
+
 .trendattend {
-	width: 22.5%;
-	height: 500px;
-	background-color: rgba(230, 230, 230, 1);
-	border: solid rgba(220, 220, 220, 1) 3px;
-	display: block;
-	font-family: 'Helvetica', sans-serif;
 	float: right;
 	margin-right: 1%;
 	overflow: auto;
@@ -585,6 +563,7 @@ footer div a:hover {
 
 .trendattend h2:hover {
 	background-color: transparent;
+	color: rgba(15, 76, 102, 1);
 }
 
 .trendattend a h2 {
@@ -597,6 +576,15 @@ footer div a:hover {
 	background-color: rgba(220, 220, 220, 1);
 	margin-bottom: 10px;
 	padding: 7px;
+}
+
+.attendees img {
+	padding: 15px 0px 15px 15px;
+}
+
+.attendees p {
+	padding-left: 15px;
+	border-bottom: solid rgba(220, 220, 220, 1) 3px;
 }
 
 iframe {

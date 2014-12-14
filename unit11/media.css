@@ -291,82 +291,45 @@ BELOW is responsive design for========
 =============================================
 ============================================*/
 
-@media only screen and (max-width: 1120px) {
-	.trendwho h1 {
-		margin-right: 31%;
+@media only screen and (max-width: 940px) {
+	.trendbanner {
+		width: 90%;
+		height: 400px;
+	}
+	.trendblurb {
+		width: 75%;
+	}
+	.trendhost, .trendattend {
+		width: 45%;
+		display: inline-block;
+		margin-top: 10px;
 	}
 }
 
-@media only screen and (max-width: 1035px) {
-	.trendwho h1 {
-		margin-right: 29%;
+@media only screen and (max-width: 680px) {
+	.trendbanner {
+		height: 350px;
 	}
 }
 
-@media only screen and (max-width: 975px) {
-	.trendwho h1 {
-		margin-right: 27%;
+@media only screen and (max-width: 590px) {
+	.trendbanner {
+		height: 300px;
 	}
-}
-
-@media only screen and (max-width: 935px) {
-	.trendwho h1 {
-		margin-right: 25%;
+	.trendblurb {
+		width: 90%;
 	}
-}
-
-@media only screen and (max-width: 890px) {
-	.trendwho h1 {
-		margin-right: 22%;
-	}
-}
-
-@media only screen and (max-width: 835px) {
-	.trendwho h1 {
-		margin-right: 19%;
-	}
-}
-
-@media only screen and (max-width: 795px) {
-	.trendwho h1 {
-		margin-right: 16%;
-	}
-}
-
-@media only screen and (max-width: 750px) {
-	.trendwho h1 {
-		margin-right: 13%;
-	}
-}
-
-@media only screen and (max-width: 705px) {
-	.trendwho h1 {
-		margin-right: 10%;
-	}
-}
-
-@media only screen and (max-width: 672px) {
-	.trendwho h1 {
-		margin-right: 7%;
-	}
-}
-
-@media only screen and (max-width: 640px) {
-	.trendwho h1 {
-		margin-right: 4%;
-	}
-}
-
-@media only screen and (max-width: 620px) {
-	.trendwho img {
-		margin: 0px;
-	}
-	.trendwho h1 {
-		width: auto;
+	
+	.trendhost, .trendattend {
+		width: 75%;
+		height: 310px;
+		display: block;
+		float: none;
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.trendinfo {
-		height: 920px;
+
+	iframe {
+		height: 350px;
 	}
 }
