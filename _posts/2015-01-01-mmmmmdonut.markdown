@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "I woke up and wanted a donut."
-description: mmmmm dounts.
+title:  I woke up and wanted a donut.
+description: mmmmm donuts
 date:   2015-01-01 11:22:07
 categories: portfolio update
 ---

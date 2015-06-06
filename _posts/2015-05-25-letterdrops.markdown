@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LetterDrops"
+title:  LetterDrops
 description: A game for kids to learn the ABCs and Keyboard Keys
 date:   2015-05-25 17:00:00
 categories: html css javascript jQuery ruby on rails
