@@ -18,4 +18,6 @@ categories: html css javascript jQuery ruby on rails
 **Link to repository**
 <a href="https://github.com/kenbarrios/LetterDrops" target="_blank">https://github.com/kenbarrios/LetterDrops</a>
 
-<img src="/images/letterDrops1.jpg">
+
+**Screenshot:**
+<img src="/images/letterDrops1.jpg" alt='LetterDrops screenshot'>
