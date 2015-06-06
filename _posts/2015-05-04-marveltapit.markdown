@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Marvel Tap It!"
-description: A click/keypress game for kids using character images from the Marvel API
+description: A click or keypress game for kids using character images from the Marvel API
 date:   2015-05-04 12:30:00
 categories: html css javascript jQuery ruby on rails
 ---
