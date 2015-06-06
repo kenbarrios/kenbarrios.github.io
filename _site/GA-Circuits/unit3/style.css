@@ -1,0 +1,46 @@
+
+
+body {
+	background: url(images/background.jpg) #52596B no-repeat;
+	background-size:cover;
+	/*background-size: cover;
+	background-color: #52596B;
+	background-repeat:no-repeat; */
+}
+
+hr {
+	border-color: red;
+	margin:0;
+	width: 35px;
+}
+
+a { }
+
+p {
+	text-align: left;
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: normal;
+	padding-top: 10px;
+}
+
+#stripes {
+	background: url(images/stripes.png) repeat-x;
+	height: 13px;
+	width: 100%; 
+	position: absolute;
+	top: -1px;
+	left: -1px;
+}
+
+#taasky {
+	margin:250px 0 0 100px;
+	padding-bottom: 15px;
+	/*width: 120px;*/
+}
+
+
+
+

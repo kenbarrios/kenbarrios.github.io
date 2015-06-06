@@ -1,0 +1,513 @@
+/*=================================
+===================================
+BELOW IS THE RESPONSIVE DESIGN CODE
+===================================
+==================================*/
+
+/*====================================
+BELOW is responsive design for 
+==============HOMEPAGE================ 
+=====================================*/
+
+@media only screen and (max-width: 1152px) {
+	#date {
+	 margin-left: 10%;
+	 margin-right: 9%;
+}
+footer a {
+	font-size: 50px;
+	margin: 10px 10px 0px 10px;
+	padding: 6px;
+	text-decoration: none;
+	height: 60px;
+	width: 30%;
+}
+#blurb {
+		font-size: 20px;
+}
+
+}
+
+@media only screen and (max-width: 1075px) {
+	footer a {
+		font-size: 45px;
+		margin: 10px 10px 0px 10px;
+		padding: 4px;
+		text-decoration: none;
+		height: 60px;
+		width: 30%;
+}	
+	#topstory {
+		height: 450px;
+	}
+	.bstories {
+		height: 400px;
+	}
+}
+
+@media only screen and (max-width: 985px) {
+	#date {
+	 margin-left: 7%;
+	 margin-right: 8%;
+}
+}
+
+@media only screen and (max-width: 954px) {
+	#date {
+	 margin-left: 3%;
+	 margin-right: 4%;
+}
+	footer a {
+	font-size: 40px;
+	margin: 10px 10px 0px 10px;
+	padding: 2px;
+	text-decoration: none;
+	height: 60px;
+	width: 30%;
+}
+}
+
+@media only screen and (max-width: 938px) {
+	#date {
+	 margin-left: 3%;
+	 margin-right: 4%;
+}
+}
+@media only screen and (max-width: 882px) {
+footer a {
+	font-size: 40px;
+	margin: 10px 10px 0px 10px;
+	padding: 2px;
+	text-decoration: none;
+	height: 60px;
+	width: 30%;
+}
+}
+
+
+@media only screen and (max-width: 860px) {
+	nav {
+		height: 30px;
+	}
+	nav a {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 831px) {
+	footer a {
+	font-size: 35px;
+	margin: 10px 10px 0px 10px;
+	padding: 1px;
+	text-decoration: none;
+	height: 60px;
+	width: 30%;
+}
+}
+
+@media only screen and (max-width: 769px) {
+	footer a {
+	font-size: 25px;
+	margin: 10px 3px 0px 3%;
+	padding: 10px 1px 0px 1px;
+	text-decoration: none;
+	height: 50px;
+	width: 28%;
+}
+}
+
+@media only screen and (max-width: 758px) {
+	a h1 {
+		font-size: 30px;
+	}
+
+	section h2 {
+		font-size: 30px;
+	}
+
+	section h3 {
+		font-size: 25px;
+	}
+	#topstory {
+		height: 350px;
+	}
+	.bstories {
+		height: 300px;
+	}
+
+}
+
+@media only screen and (max-width: 743px) {
+	nav {
+		height: 28px;
+	}
+	nav a {
+		font-size: 20px;
+		height: 28px;
+	}
+}
+
+@media only screen and (max-width: 716px) {
+	.archsec a {
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+
+}
+
+@media only screen and (max-width: 609px) {
+	nav a {
+		font-size: 17px;
+	}
+
+	nav {
+		height: 23px;
+	}
+		#topstory {
+		height: 265px;
+	}
+
+	.bstories {
+		height: 245px;
+	}
+
+	#blurb {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 541px) {
+	footer {
+		height: 250px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	footer a {
+		float: none;
+		font-size: 35px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 97%;
+	}
+}
+
+@media only screen and (max-width: 512px) {
+	#date {
+		display: none;
+	}
+	#navanvil {
+		margin-right: 30%;
+	}
+	#navmenu {
+		margin-left: 30%;
+	}
+
+	#topstory {
+		height: 250px;
+	}
+
+	.bstories {
+		height: 220px;
+	}
+
+	.markers {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 402px) {
+	#blurb {
+		height: 55px;
+	}
+}
+
+@media only screen and (max-width: 368px) {
+		#navanvil {
+		margin-right: 20%;
+	}
+	#navmenu {
+		margin-left: 20%;
+	}
+
+	#topstory {
+		height: 300px;
+	}
+
+	.bstories {
+		height: 280px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+
+	#navanvil {
+		margin-right: 20%;
+	}
+	#navmenu {
+		margin-left: 20%;
+	}
+
+	#blurb {
+		height: 55px;
+	}
+	#topstory {
+		height: 300px;
+	}
+
+	.bstories {
+		height: 280px;
+	}
+}
+
+/*=====================================
+BELOW IS THE RESPONSIVE CODE FOR ======
+==============STORY PAGE===============
+======================================*/
+
+@media only screen and (max-width: 1123px) {
+	.storypic {
+		height: 460px;
+	}
+
+}
+
+@media only screen and (max-width: 1006px) {
+	.storypic {
+		height: 450px;
+	}
+
+}
+
+@media only screen and (max-width: 915px) {
+	.storytitle {
+		font-size: 35px;
+		}
+}
+
+@media only screen and (max-width: 900px) {
+	.storybody {
+		width: 65%;
+	}
+}
+
+@media only screen and (max-width: 805px) {
+	.storypic {
+		height: 400px;
+	}
+	.storytitle {
+		font-size: 30px;
+		}
+}
+
+@media only screen and (max-width: 775px) {
+	.storybody {
+		width: 70%;
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 758px) {
+	.storypic {
+		height: 350px;
+	}
+}
+
+@media only screen and (max-width: 593px) {
+	.storypic {
+		height: 265px;
+	}
+
+	.storytitle {
+		width: 67%;
+	}
+
+	.storybody {
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.storybody {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 511px) {
+	.storypic {
+		height: 250;
+	}
+
+	.storytitle {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.storypic {
+		height: 300px;
+	}
+	.storytitle {
+		font-size: 18px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+}
+
+/*==========================================
+===BELOW IS THE RESPONSIVE CODE FOR=========
+=====THE ABOUT US PAGE======================
+===========================================*/
+
+@media only screen and (max-width: 1217px) {
+	#anvil {
+		width: 45%;
+	}
+	#aboutsection {
+		width: 45%;
+	}
+
+	#aboutsection p {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 910px) {
+	#aboutsection p {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 795px) {
+	#aboutimg {
+		margin: 2px 5% 0px 5%;
+		height: 300px;
+		width: 90%;
+	}
+
+	#aboutsection {
+		height: 320px;
+		width: 95%;
+		margin: 5px 2.5% 0px 2.5%;
+	}
+}
+
+@media only screen and (max-width: 710px) {
+	#aboutsection p {
+		font-size: 18px
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	#aboutsection {
+		height: 350px;
+	}
+}
+
+@media only screen and (max-width: 490px) {
+	#aboutsection {
+		height: 375px;
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (max-width: 472px) {
+	#aboutsection {
+		height: 400px;
+	}
+}
+
+@media only screen and (max-width: 440px) {
+	#aboutsection {
+		height: 450px;
+	}
+}
+
+/*==================================
+====BELOW IS THE RESPONSIVE CODE FOR
+THE SUBSCRIBER PAGE=================
+==================================*/
+
+@media only screen and (max-width: 795px) {
+	#subPlans {
+		height: 460px;
+		width: 96%;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	#subImage {
+		margin-top: 3px;
+		height: 300px;
+		width: 97%;
+	}
+
+	.mailing {
+		margin-left: 3%;
+	}
+
+	#subinone {
+		margin-left: 3%;
+		margin-right: auto;
+	}
+	#subintwo {
+		margin-left: 3%;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	#scribebody {
+		height: 1300px;
+	}
+	#subPlans {
+		height: 500px;
+		padding-bottom: 10px;
+	}
+	#subinone {
+		display: inline-block;
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#subintwo {
+		display: inline-block;
+		width: 98%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#subImage {
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	#scribebody {
+		height: 1300px;
+	}
+	#subPlans {
+		height: 500px;
+		padding-bottom: 10px;
+	}
+	#subinone {
+		display: block;
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#subintwo {
+		display: block;
+		width: 98%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 20px;
+	}
+	#subImage {
+		margin-top: 10px;
+	}
+}
+

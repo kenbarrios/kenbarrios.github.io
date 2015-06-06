@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Cause+Reflect
+	</title>
+	<meta name="viewport" content="user-scalable=0, initial-scale=1.0">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='style.css' rel='stylesheet' type='text/css'>
+	<link href='media.css' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+</head>
+<body>
+	<nav>
+		<a href="index.html" id="logo">
+			<h1>Cause+Reflect</h1>
+		</a>
+		<div>
+			<ul>
+    			<li id="login">
+      				<a id="login-trigger" class="navbuttons" href="#">
+        				Log in
+      				</a>
+     				 <div id="login-content">
+        				<form>
+        				  <fieldset id="inputs">
+          					  <input id="username" type="email" name="Email" placeholder="Your email address" required>   
+          					  <input id="password" type="password" name="Password" placeholder="Password" required>
+         				 </fieldset>
+        			  	 <fieldset id="actions">
+         					  <input type="submit" id="submit" value="Log in">
+            				  <label><input type="checkbox" checked="checked">Keep me signed in</label>
+        			     </fieldset>
+       				    </form>
+      				 </div>                     
+    			</li>
+    			<li>
+			<a href="#" id="signup" class="navbuttons">
+				Sign Up
+			</a>
+				</li>
+				<li>
+			<a href="#" id="menu" class="navbuttons">
+				Menu
+			</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div id="hero">
+		<h1>
+			Movements Are Spreading
+		</h1>
+		<br>
+		<a href="#">
+			Join Now
+		</a>
+	</div>
+	<section class="subhero">
+		<a href="trending.html">
+			<div id="trending">
+				<h2>
+					Trending
+				</h2>
+			</div>
+		</a>
+		<a href="#">
+			<div id="action">
+				<h2>
+					Actions
+				</h2>
+			</div>
+		</a>
+		<a href="#">
+			<div id="study">
+				<h2>
+					Reflections
+				</h2>
+			</div>
+		</a>
+		<a href="#">
+			<div id="group">
+				<h2>
+					Groups
+				</h2>
+			</div>
+		</a>
+	</section>
+	<a href="#">
+		<section id="weare">
+			<h2>
+				Die-ins, teach-ins, and more at 
+				<span>Cause+Reflect</span>
+			</h2>
+		</section>
+	</a>
+	<footer>
+		<div id="minfo">
+			<h3>
+				More 
+				<br> 
+				Info
+			</h3>
+			<a href="#">
+				Sign Up
+			</a>
+			<a href="#">
+				Log In
+			</a>
+			<a href="#">
+				About Us
+			</a>
+			<a href="#">
+				Contact Us
+			</a>
+			<a href="#">
+				Blog
+			</a>
+		</div>
+		<div id="mcities">
+			<h3>
+				Major 
+				<br> 
+				Cities
+			</h3>
+			<a href="#">
+				New York City
+			</a>
+			<a href="#">
+				Boston
+			</a>
+			<a href="#">
+				Chicago
+			</a>
+			<a href="#">
+				Austin
+			</a>
+			<a href="#">
+				Detroit
+			</a>
+			<a href="#">
+				Seattle
+			</a>
+			<a href="#">
+				Portland
+			</a>
+			<a href="#">
+				Los Angeles
+			</a>
+			<a href="#">
+				San Francisco
+			</a>
+		</div>
+		<h3>
+			&copy; Cause+Reflect
+		</h3>
+	</footer>
+
+	<script>
+		$(document).ready(function(){
+  			$('#login-trigger').click(function(){
+    			$(this).next('#login-content').slideToggle();
+    			$(this).toggleClass('active');          
+    
+    			if ($(this).hasClass('active')) $(this).find('span').html('&#x25B2;')
+      			else $(this).find('span').html('&#x25BC;')
+    })
+});
+	</script>
+
+</body>
+</html>
