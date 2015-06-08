@@ -23,5 +23,3 @@ Two players play on one desktop/laptop/tablet. After signing in, players choose 
 **Screenshot**
 
 <img src="/images/mtiapp.gif" alt="Marve Tap It screenshot">
-
-test
