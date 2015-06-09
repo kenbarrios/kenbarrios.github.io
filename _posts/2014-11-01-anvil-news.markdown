@@ -3,7 +3,7 @@ layout: post
 title:  Anvil News
 description: A fake news website
 date:   2014-11-01 23:00:05
-categories: html css 
+categories: html css
 ---
 
 **Technologies**
@@ -17,3 +17,6 @@ categories: html css
 
 **Link to Github-hosted site**
 <a href="https://kenbarrios.github.io/GA-Circuits/unit9/index.html" target="_blank">https://kenbarrios.github.io/GA-Circuits/unit9/index.html</a>
+
+**Screenshot**
+<img src="/images/cause-and-reflect.png">
