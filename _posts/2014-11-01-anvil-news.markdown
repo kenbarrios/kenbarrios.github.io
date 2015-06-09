@@ -19,4 +19,4 @@ categories: html css
 <a href="https://kenbarrios.github.io/GA-Circuits/unit9/index.html" target="_blank">https://kenbarrios.github.io/GA-Circuits/unit9/index.html</a>
 
 **Screenshot**
-<img src="/images/cause-and-reflect.png">
+<img src="/images/anvil.png">
