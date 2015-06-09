@@ -20,4 +20,4 @@ categories: html css javascript
 <a href="https://kenbarrios.github.io/GA-Circuits/unit11/index.html" target="_blank">https://kenbarrios.github.io/GA-Circuits/unit11/index.html</a>
 
 **Screenshot**
-<img src="cause-and-reflect.png">
+<img src="/images/cause-and-reflect.png">
