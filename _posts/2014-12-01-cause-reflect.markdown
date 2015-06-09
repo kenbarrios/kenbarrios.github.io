@@ -18,3 +18,6 @@ categories: html css javascript
 
 **Link to Github-hosted site**
 <a href="https://kenbarrios.github.io/GA-Circuits/unit11/index.html" target="_blank">https://kenbarrios.github.io/GA-Circuits/unit11/index.html</a>
+
+**Screenshot**
+<img src="cause-and-reflect.png">
