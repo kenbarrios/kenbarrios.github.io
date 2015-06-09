@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Anvil News
-description: A fake news website
+description: A front-end only news site
 date:   2014-11-01 23:00:05
 categories: html css
 ---

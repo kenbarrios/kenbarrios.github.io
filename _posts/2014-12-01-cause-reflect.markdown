@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Cause&Reflect
-description: A fake meetup site for activists
+description: A front-end only meetup site for activists
 date:   2014-12-01 23:00:10
 categories: html css javascript
 ---
