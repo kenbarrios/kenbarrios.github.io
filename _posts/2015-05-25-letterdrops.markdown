@@ -26,6 +26,4 @@ categories: html css javascript jQuery ruby on rails
 
 
 **Screenshots:**
-<img src="/images/letterDrops1.jpg" alt="LetterDrops screenshot1">
-<br>
-<img src="/images/letterDrops2.jpg" alt="LetterDrops screenshot2">
+<img src="/images/letterDrops.gif">
