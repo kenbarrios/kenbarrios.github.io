@@ -1,0 +1,614 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	text-decoration: none;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*=======================================
+ABOVE IS THE GA CSS RESET CODE===========
+=======================================*/
+
+/*=======================================
+BELOW IS THE HOMEPAGE CSS CODE===========
+CAUSE+REFLECT============================
+=======================================*/
+body {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+nav {
+	width: 99%;
+	height: 50px;
+	background-color: rgba(15, 76, 102, 1);
+	display: inline-block;
+	font-family: 'Helvetica', sans-serif;
+	text-align: center;
+}
+
+nav a {
+	color: white;
+	display: inline-block;
+}
+
+nav div {
+	display: block;
+	margin-top: -37px;
+	margin-left: 71%;
+}
+
+nav div a {
+	height: 35px;
+	display: inline-block;
+	font-family: 5px;
+}
+
+nav div a:hover {
+	background-color: rgba(0, 179, 255, 1);
+}
+
+#logo {
+	height: 35px;
+	background-color: transparent;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	margin: 8px 75% 0px 0px;
+}
+
+.navbuttons {
+	width: 103px;
+	height: 30px;
+	background-color: transparent;
+	border-radius: 5px;
+	font-size: 25px;
+	padding: 7px 7px 1px 7px;
+}
+
+/*=======================================
+=========LOGIN DROPDOWN BELOW============
+=======================================*/
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: transparent;
+  border-radius: 3px;    
+}
+
+nav li {
+  float: left;         
+}
+
+nav #login { 
+	width: 117px;
+	height: 38px;
+	background-color: transparent;
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 25px;
+}
+
+nav #login-trigger,
+nav #signup a {
+  display: inline-block;
+  *display: inline-block;
+  *zoom: 1;
+  font-family: 'Helvetica', sans-serif;
+  height: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+nav #login-trigger {
+  border-radius: 3px;
+}
+
+nav #login-trigger:hover,
+nav #login .active,
+nav #signup a:hover {
+  background-color: rgba(0, 179, 255, 1);
+}
+
+nav #login-content {
+  display: none;
+  position: absolute;
+  top: 24px;
+  right: 0;
+  z-index: 999;    
+  background-color: rgba(255, 255, 255, .7); 
+  padding: 15px;
+  box-shadow: 0 2px 2px -1px rgba(0,0,0,.9);
+  border-radius: 3px 0 3px 3px;
+}
+
+nav li #login-content {
+ 	width: 250px;  
+ 	margin: 25px 5% 0 0;
+}
+
+/*--------------------*/
+
+#inputs input {
+  background: #f1f1f1;
+  padding: 6px 5px;
+  margin: 0 0 5px 0;
+  width: 238px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px #ccc inset;
+}
+
+#inputs input:focus {
+  background-color: #fff;
+  border-color: #e8c291;
+  outline: none;
+  box-shadow: 0 0 0 1px #e8c291 inset;
+}
+
+/*--------------------*/
+
+#login #actions {
+  margin: 10px 0 0 0;
+}
+
+#login #submit {    
+  background-color: rgba(15, 76, 102, 1);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
+  border: 1px solid #7e1515;
+  float: left;
+  height: 30px;
+  padding: 0;
+  width: 100px;
+  cursor: pointer;
+  font: bold 14px Arial, Helvetica;
+  color: #fff;
+}
+
+#login #submit:hover,
+#login #submit:focus {    
+  background-color: rgba(0, 179, 255, 1);
+} 
+
+#login #submit:active {   
+  outline: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;   
+}
+
+#login #submit::-moz-focus-inner {
+  border: none;
+}
+
+#login label {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 15px;
+ 	float: right;
+ 	line-height: 30px;
+}
+
+#login label input {
+  position: relative;
+  top: 2px;
+  right: 2px;
+}
+
+/*=======================================
+=========LOGIN DROPDOWN ABOVE============
+=======================================*/
+
+#hero {
+	width: 99%;
+	height: 500px;
+	background-image: url(images/blm.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#hero h1 {
+	background-color: rgba(0, 0, 0, .7);
+	color: white;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 110px;
+	padding: 15px;
+}
+
+#hero h1:hover {
+	background-color: rgba(15, 76, 102, .7);
+}
+
+#hero a {
+	border: solid white 3px;
+	color: white;
+	display: inline-block;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 150px;
+	padding: 8px;
+}
+
+#hero a:hover {
+	text-shadow: 2px 2px #000000;
+	box-shadow: 2px 2px #000000;
+}
+
+#hero section {
+	display: block;
+	margin-top: 20px;
+}
+
+#hero section input {
+	font-size: 18px;
+	text-align: center;
+}
+
+.subhero {
+	width: 99%;
+	height: 500px;
+	background-color: rgba(15, 76, 102, 1);
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.subhero div {
+	width: 21%;
+	height: 450px;
+	border: solid rgba(5, 66, 92, 1) 5px;
+	display: inline-block;
+	margin: 25px 1%;
+}
+
+.subhero h2 {
+	background-color: rgba(0, 0, 0, .3);
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 200px;
+	padding: 10px 0;
+}
+
+.subhero h2:hover {
+	background-color: rgba(15, 76, 102, .7);
+}
+
+#trending {
+	background-image: url(images/handsup.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#action {
+	background-image: url(images/reflect.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#group {
+	background-image: url(images/group.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#study {
+	background-image: url(images/action.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#weare {
+	width: 99%;
+	height: 500px;
+	background-image: url(images/weare.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+#weare h2 {
+	background-color: rgba(0, 0, 0, .7);
+	display: inline-block;
+	margin-top: 200px;
+	padding: 15px;
+}
+
+#weare h2:hover {
+	background-color: rgba(15, 76, 102, .7);
+}
+
+#weare h2 span {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+footer {
+	width: 99%;
+	background-color: rgba(34, 171, 229, 1);
+	color: white;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer div {
+	width: 100px;
+	display: inline-block;
+	padding: 10px 0;
+	vertical-align: text-top;
+	text-align: left;
+}
+
+footer h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 23px;
+	padding: 5px 0 20px 0;
+}
+
+footer div a {
+	color: white;
+	display: block;
+	padding-top: 5px;
+	text-align: left;
+}
+
+footer div a:hover {
+	background-color: rgba(15, 76, 102, .7);
+}
+
+
+/*======================================
+========================================
+======BELOW IS CODE FOR TRENDING PAGE===
+========================================
+======================================*/
+
+.trendbanner {
+	width: 75%;
+	height: 500px;
+	margin-top: 10px;
+	border: solid rgba(5, 66, 92, 1) 3px;
+}
+
+.trenddetails {
+	width: 99%;
+	background-color: rgba(230, 230, 230, 1);
+	border: solid rgba(220, 220, 220, 1) 3px;
+	color: rgba(15, 76, 102, 1);
+	font-family: 'Helvetica', sans-serif;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.trenddetails hr {
+	width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.trenddetails h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	padding: 10px;
+}
+
+.trenddetails li {
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px
+}
+
+.trenddetails div {
+	padding: 15px;
+}
+
+.trenddetails a {
+	color: rgba(15, 76, 102, 1);
+	font-size: 20px;
+}
+
+.trenddetails h2 {
+	width: 103px;
+	height: 30px;
+	background-color: rgba(0, 179, 255, 1);
+	color: rgba(255, 255, 255, 1);
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12px;
+	margin-bottom: 10px;
+	padding: 15px 15px 5px 15px;
+	text-align: center;
+}
+
+.trenddetails h2:hover {
+	background-color: transparent;
+	color: rgba(15, 76, 102, 1);
+}
+
+.trendblurb {
+	width: 44%;
+	height: 500px;
+	border: solid rgba(5, 66, 92, 1) 3px;
+	box-sizing: border-box;
+	font-family: 'Georgia', serif;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	overflow: auto;
+	text-align: left;
+}
+
+.trendblurb h2 {
+	font-size: 20px;
+	padding: 8px;
+}
+
+.trendblurb p {
+	font-size: 16px;
+	line-height: 23px;
+	margin-top: 10px;
+	padding: 8px;
+}
+
+.trendhost, .trendattend {
+	width: 22.5%;
+	height: 500px;
+	background-color: rgba(230, 230, 230, 1);
+	border: solid rgba(220, 220, 220, 1) 3px;
+	box-sizing: border-box;
+	display: block;
+	font-family: 'Helvetica', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -505.6px;
+	padding: 0px 5px 0px 5px;
+}
+
+.trendhost {
+	float: left;
+	margin-left: 1%;
+	text-align: left;
+}
+
+.trendhost h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.trendhost img {
+	padding: 15px 0px 15px 15px;
+}
+
+.trendhost a {
+	word-wrap: break-word;
+}
+
+.trendhost h2, .trendhost p {
+	padding-left: 15px;
+}
+
+.trendattend {
+	float: right;
+	margin-right: 1%;
+	overflow: auto;
+	text-align: left;
+}
+
+.trendattend a h2 {
+	color: rgba(255, 255, 255, 1);
+}
+
+.trendattend h2 {
+	width: 103px;
+	height: 30px;
+	background-color: rgba(0, 179, 255, 1);
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.trendattend h2:hover {
+	background-color: transparent;
+	color: rgba(15, 76, 102, 1);
+}
+
+.trendattend a h2 {
+	font-weight: bold;
+	padding: 15px 5px 0px 5px
+}
+
+
+.trendnumbers {
+	text-align: center;
+	background-color: rgba(220, 220, 220, 1);
+	margin-bottom: 10px;
+	padding: 7px;
+}
+
+.attendees img {
+	padding: 15px 0px 15px 15px;
+}
+
+.attendees p {
+	padding-left: 15px;
+	padding-bottom: 10px;
+	border-bottom: solid rgba(220, 220, 220, 1) 3px;
+}
+
+iframe {
+	border: solid rgba(5, 66, 92, 1) 3px;
+	margin-top: 15px;
+}

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ken Barrios</title>
+    <description>Ken Barrios: The Portfolio
+</description>
+    <link>https://kenbarrios.github.io/</link>
+    <atom:link href="https://kenbarrios.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 06 Jun 2015 15:49:36 -0500</pubDate>
+    <lastBuildDate>Sat, 06 Jun 2015 15:49:36 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>LetterDrops</title>
+        <description>&lt;p&gt;&lt;strong&gt;Instructions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;There are two levels that involve falling “drops” with letters inside: the levels are called “Alphabetized” and “Randomized”. As the drops fall, the user types the corresponding letter into the keyboard to pop the drop.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There is a third level that involves several drops that contain entire words: the level is called “Words”. The user must spell out the entire word, and once the spelling is completed the word drop will pop.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Technologies used:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;css keyframes for animation&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;javascript &amp;amp; jQuery for game setup and logic&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;ruby on rails for backend&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Link to repository&lt;/strong&gt;
+&lt;a href=&quot;https://github.com/kenbarrios/LetterDrops&quot; target=&quot;_blank&quot;&gt;https://github.com/kenbarrios/LetterDrops&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Screenshots:&lt;/strong&gt;
+&lt;img src=&quot;/images/letterDrops1.jpg&quot; alt=&quot;LetterDrops screenshot1&quot; /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;/images/letterDrops2.jpg&quot; alt=&quot;LetterDrops screenshot2&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 May 2015 12:00:00 -0500</pubDate>
+        <link>https://kenbarrios.github.io/html/css/javascript/jquery/ruby/on/rails/2015/05/25/letterdrops.html</link>
+        <guid isPermaLink="true">https://kenbarrios.github.io/html/css/javascript/jquery/ruby/on/rails/2015/05/25/letterdrops.html</guid>
+        
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+        <category>javascript</category>
+        
+        <category>jquery</category>
+        
+        <category>ruby</category>
+        
+        <category>on</category>
+        
+        <category>rails</category>
+        
+      </item>
+    
+      <item>
+        <title>Marvel Tapit</title>
+        <description>&lt;p&gt;&lt;strong&gt;Instructions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Two players play on one desktop/laptop/tablet. After signing in, players choose one hero and one villian. The player on the left of the screen can attack the player on the right using the “A” button. The player on the right can attack with the “L” button. On a touch screen, players can simply tap their character to attack.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technologies&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Marvel API to generate character jpgs and biographies (when available)&lt;/li&gt;
+  &lt;li&gt;javascript &amp;amp; jQuery for game setup and logic&lt;/li&gt;
+  &lt;li&gt;ruby on rails for backend&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Link to repository&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/WDI-Woodstock-Schroeder/MarvelTapIt&quot; target=&quot;_blank&quot;&gt;https://github.com/WDI-Woodstock-Schroeder/MarvelTapIt&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Screenshot&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/mtiapp.gif&quot; alt=&quot;Marve Tap It screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;test&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Apr 2015 06:22:07 -0500</pubDate>
+        <link>https://kenbarrios.github.io/html/css/javascript/jquery/ruby/on/rails/2015/04/01/marveltapit.html</link>
+        <guid isPermaLink="true">https://kenbarrios.github.io/html/css/javascript/jquery/ruby/on/rails/2015/04/01/marveltapit.html</guid>
+        
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+        <category>javascript</category>
+        
+        <category>jquery</category>
+        
+        <category>ruby</category>
+        
+        <category>on</category>
+        
+        <category>rails</category>
+        
+      </item>
+    
+      <item>
+        <title>I woke up and wanted a donut.</title>
+        <description>&lt;h1 id=&quot;h1-header&quot;&gt;h1 header&lt;/h1&gt;
+
+&lt;h2 id=&quot;h2-header&quot;&gt;h2 header&lt;/h2&gt;
+
+&lt;h3 id=&quot;h3-header&quot;&gt;h3 header&lt;/h3&gt;
+
+&lt;h4 id=&quot;h4-header&quot;&gt;h4 header&lt;/h4&gt;
+
+&lt;p&gt;Plain text. &lt;em&gt;Italic Text&lt;/em&gt; &lt;strong&gt;Bold Text&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a&lt;/li&gt;
+  &lt;li&gt;simple&lt;/li&gt;
+  &lt;li&gt;Lists&lt;/li&gt;
+  &lt;li&gt;ul&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;one&lt;/li&gt;
+  &lt;li&gt;two&lt;/li&gt;
+  &lt;li&gt;three&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://npr.org&quot;&gt;NPR&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Jan 2015 05:22:07 -0600</pubDate>
+        <link>https://kenbarrios.github.io/portfolio/update/2015/01/01/mmmmmdonut.html</link>
+        <guid isPermaLink="true">https://kenbarrios.github.io/portfolio/update/2015/01/01/mmmmmdonut.html</guid>
+        
+        
+        <category>portfolio</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
