@@ -1,0 +1,145 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	text-decoration: none;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*=======================================
+ABOVE IS THE GA CSS RESET CODE*/
+
+body {
+	width: 1230px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+img {
+	width: 200px;
+	border: solid white 5px;
+	border-radius: 200px;
+	margin-right: 950px;
+	margin-top: -150px;
+}
+
+h1 {
+	background-color: rgba(12, 232, 229, 1);
+	color: white;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 65px;
+	margin-left: 200px;
+	margin-top: -132px;
+	text-align: ;
+	text-rendering: optimizeLegibility;
+}
+
+section {
+	height: 440px;
+	width: 1230px;
+	background-color: rgba(235, 106, 71, 1);
+	color: white;
+}
+
+section h2 {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 40px;
+	margin: 5px 500px 10px 0px;
+	padding: 18px 0px 5px 0px;
+}
+
+section p {
+	width: 780px;
+	font-family: 'Georgia', 'Garamond', serif;
+	font-size: 18px;
+	line-height: 25px;
+	padding-left: 25px;
+	text-align: left;
+}
+
+section p a {
+	color: black;
+}
+
+footer {
+	height: 200px;
+	width: 1230px;
+	background-color: rgba(40, 40, 40, .7);
+	color: white;
+}
+
+footer h2 {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 40px;
+	margin: 5px 468px 10px 0px;
+	padding: 18px 0px 0px 0px;
+}
+
+footer p {
+	border-left: solid white 1px;
+	border-right: solid white 1px;
+	display: inline-block;
+	float: left;
+	font-family: 'Georgia', 'Garamond', serif;
+	font-size: 18px;
+	line-height: 30px;
+	margin-left: 45px;
+	padding: 0px 10px 0px 10px;
+	text-align: left;
+	text-decoration: none;
+}
+
+footer p + footer p {
+
+}
+
+footer p a {
+	color: white;
+}
+
+#chicago {
+	height: 400px;
+	width: 1230px;
+	background-image: url(images/chicagonight.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
