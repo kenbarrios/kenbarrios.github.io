@@ -1,0 +1,12 @@
+# Site settings
+title: Ken Barrios
+email: keniswaiting at gmail dot  com
+description: > # this means to ignore newlines until "baseurl:"
+  Ken Barrios: The Portfolio
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://kenbarrios.github.io" # the base hostname & protocol for your site
+twitter_username: keniswaiting
+github_username:  kenbarrios
+
+# Build settings
+markdown: kramdown

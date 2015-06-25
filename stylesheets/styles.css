@@ -1,0 +1,341 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/*brand red: rgba(178,18,18,1);
+brand yellow: rgba(255,252,25,1);
+brand blue: rgba(20,133,204,1);
+brand green: rgba(0,255,124,1);*/
+
+/*brand font-family: 'Domine', serif;
+brand font-family: 'Montserrat Alternates', sans-serif;*/
+
+h1, h2, h3 {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+p, li {
+  font-family: 'Domine', serif;
+}
+
+.desktopNav {
+  width: 100%;
+  height: 55px;
+  background-color: transparent;
+}
+
+.desktopNav ul {
+  display: block;
+  width: 100%;
+  height: 55px;
+  margin: auto;
+  padding: 0px;
+  text-align: center;
+}
+
+.desktopNav ul li{
+  width: 25%;
+  height: 60px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.5);;
+  display: block;
+  float: left;
+  font-size: 25px;
+  line-height: 40px;
+  padding: 10px;
+}
+
+.mobileNav {
+  width: 100%;
+  height: 50px;
+  display: none;
+  position: relative;
+  z-index: 2;
+}
+
+.mobileNav button {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: 0;
+  text-indent: 200%;
+  overflow: hidden;
+  background: rgba(255,255,255,.8) url(http://i.imgur.com/vKRaKDX.png) center no-repeat;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-size: 80%;
+  outline: none;
+  transition: all 400ms ease;
+}
+
+.mobile button .expanded {
+    transform: rotate(90deg);
+    background-color: transparent;
+    border: 0;
+}
+
+.mobileNav ul {
+  width: 100%;
+  height: 400px;
+  display: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mobileNav li {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: solid rgba(255,255,255, .7) 1px;
+  font-size: 25px;
+  line-height: 100px;
+}
+
+.mobileNav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.aBlock {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.aBlock h1, h2, h3, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+#centralDiv {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../images/bandw.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-weight: bold;
+}
+
+#centralDiv h1 {
+  width: 100%;
+  display: none;
+  font-size: 80px;
+  line-height: 105px;
+  position: relative;
+  z-index: 1;
+}
+
+#centralDiv h3 {
+  width: 100%;
+  display: none;
+  font-family: 'Domine', serif;
+  font-size: 50px;
+  padding: 10px 20px 10px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.blockTitles {
+  width: 50%;
+  height: 100vh;
+  display: block;
+  float: left;
+}
+
+.blockTitles h2 {
+  height: 225px;
+  width: 225px;
+  background-color: rgba(255,255,255,.8);
+  color: black;
+  display: block;
+  font-size: 50px;
+  line-height: 225px;
+  margin: auto;
+  position: relative;
+  top: 35%;
+}
+
+.blockBlurbs {
+  width: 50%;
+  height: 100vh;
+  display: block;
+  float: left;
+  color: white;
+}
+
+.blockBlurbs h3 {
+  font-size: 30px;
+  margin-top: 10%;
+  text-decoration: underline;
+}
+
+.blockBlurbs ul {
+  width: 100%;
+  display: block;
+  margin: auto;
+  list-style: none;
+  padding: 0px;
+}
+
+.blockBlurbs li {
+  font-size: 25px;
+
+}
+
+.blockBlurbs p {
+  font-size: 25px;
+  padding: 0px 25px 0px 25px;
+}
+
+#aboutMeImg {
+  background-image: url(../images/myBike.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+#aboutmeBlurb {
+  background-color: rgba(178,18,18,.8);
+}
+
+#projectsTitle {
+  height: 350px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../images/wackerDrv.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#projectsTitle h2 {
+  width: 275px;
+  height: 275px;
+  background-color: rgba(255,252,25,.5);
+  border-radius: 275px;
+  display: block;
+  font-size: 50px;
+  margin: auto;
+  position: relative;
+  line-height: 275px;
+  top: 11%;
+}
+
+#projectsList {
+  position: relative;
+  z-index: 1;
+}
+
+#projectsList section {
+  width: 25%;
+  height: 100vh;
+  display: block;
+  float: left;
+}
+
+#projectsList section:hover {
+  opacity: 1;
+}
+
+#projectsList h6 {
+  width: 200px;
+  height: auto;
+  background-color: rgba(255,255,255,.8);
+  color: black;
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  margin: auto;
+  padding: 15px;
+  position: relative;
+  top: 44%;
+}
+
+#projectOne {
+  background-image: url(../images/letterDrops1.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .5;
+}
+
+#projectTwo {
+  background-image: url(../images/cause-and-reflect.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .5;
+}
+
+#projectThree {
+  background-image: url(../images/marveltapit.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .5;
+}
+
+#projectFour {
+  background-image: url(../images/anvil.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .5;
+}
+
+#contactTitle {
+  width: 50%;
+  height: 100vh;
+  background-image: url(../images/contact.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#contactMe .blockBlurbs {
+  background-color: rgba(20,133,204,1);
+}
+
+#contactMe .blockBlurbs a {
+  color: white;
+  text-decoration: none;
+}
+
+#contactMe .blockBlurbs p {
+  width: 100%;
+  height: 33.3vh;
+  font-size: 45px;
+  line-height: 33vh;
+}
+
+#contactMe .blockBlurbs .midLink {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+#contactMe .blockBlurbs p:hover {
+  background-color: rgba(255,255,255,.8);
+  color: rgba(20,133,204,.9);
+}
