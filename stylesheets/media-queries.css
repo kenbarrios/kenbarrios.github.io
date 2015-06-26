@@ -77,9 +77,34 @@
     background-attachment: initial;
   }
 
+  #aboutMeImg {
+    background-attachment: initial;
+  }
+
+  #projectsTitle {
+    background-attachment: initial;
+  }
+
+  #projectOne {
+    background-attachment: initial;
+  }
+
+  #projectTwo {
+    background-attachment: initial;
+  }
+
+  #projectThree {
+    background-attachment: initial;
+  }
+
+  #projectFour {
+    background-attachment: initial;
+  }
+
   #contactTitle {
     width: 100%;
     height: 350px;
+    background-attachment: initial;
   }
 
   #contactTitle h2 {
