@@ -133,6 +133,22 @@
   .bioContent {
     width: 95%;
   }
+
+  #bioOne {
+    background-attachment: initial;
+  }
+
+  #bioTwo {
+    background-attachment: initial;
+  }
+
+  #bioThree {
+    background-attachment: initial;
+  }
+
+  #bioFour {
+    background-attachment: initial;
+  }
 }
 
 @media only screen and (max-width: 500px) {
