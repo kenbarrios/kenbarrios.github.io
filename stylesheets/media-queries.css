@@ -72,12 +72,6 @@
   #aboutmeBlurb h3 {
     margin-top: 0px;
   }
-/*add this just now for testing*/
-/*add this just now for testing*/
-/*add this just now for testing*/
-  #aboutmeBlurb li, #aboutmeBlurb p {
-    font-size: 16px;
-  }
 
   #projectsTitle {
     display: inline-block;
