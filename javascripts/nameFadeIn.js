@@ -1,6 +1,6 @@
 $(document).ready(function(){
   function nameFadeIn1(){
-    $(".hireMe1").fadeIn(3000).css("display", "inline-block");
+    $(".hireMe1").slideDown(3000).css("display", "inline-block");
   };
 
   setInterval(nameFadeIn1, 1000);
