@@ -1,8 +1,3 @@
-/*@media only screen and (max-height: 300px) {
-  #aboutmeBlurb li, #aboutmeBlurb p {
-    font-size: 16px;
-  }
-}*/
 
 @media only screen and (min-height: 700px) {
   .biosWrapper {
@@ -19,6 +14,12 @@
 @media only screen and (max-width: 900px) {
   #aboutmeBlurb li, #aboutmeBlurb p {
     font-size: 20px;
+  }
+}
+
+@media only screen and (max-height: 480px) {
+  #aboutmeBlurb li, #aboutmeBlurb p {
+    font-size: 16px;
   }
 }
 
