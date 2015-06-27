@@ -1,4 +1,4 @@
-@media only screen and (max-height: 457px) {
+@media only screen and (max-height: 400px) {
   #aboutmeBlurb li, #aboutmeBlurb p {
     font-size: 16px;
   }
