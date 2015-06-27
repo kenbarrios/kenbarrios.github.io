@@ -1,3 +1,9 @@
+@media only screen and (min-height: 380px) {
+  #aboutmeBlurb li, #aboutmeBlurb p {
+    font-size: 16px;
+  }
+}
+
 @media only screen and (min-height: 700px) {
   .biosWrapper {
     margin-top: -1410px;
