@@ -1,10 +1,10 @@
-
+/*MIN-HEIGHT*/
 @media only screen and (min-height: 700px) {
   .biosWrapper {
     margin-top: -1410px;
   }
 }
-
+/*MIN-HEIGHT*/
 @media only screen and (min-height: 800px) {
   .biosWrapper {
     margin-top: -1600px;
@@ -21,6 +21,9 @@
 @media only screen and (max-height: 480px) {
   #aboutmeBlurb li, #aboutmeBlurb p {
     font-size: 18px;
+  }
+  .biosWrapper {
+    margin-top: -1500px;
   }
 }
 
