@@ -17,6 +17,7 @@
   }
 }
 
+/*MAX HEIGHT*/
 @media only screen and (max-height: 480px) {
   #aboutmeBlurb li, #aboutmeBlurb p {
     font-size: 16px;
@@ -71,6 +72,10 @@
 
   #aboutmeBlurb h3 {
     margin-top: 0px;
+  }
+
+  #aboutmeBlurb li, #aboutmeBlurb p {
+    font-size: 22px;
   }
 
   #projectsTitle {
