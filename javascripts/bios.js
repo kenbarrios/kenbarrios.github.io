@@ -4,6 +4,8 @@ $(function(){
     $("#projectsList").click(function(event){
       var targetId = event.target.id;
       console.log(targetId);
+
+
       if (targetId === "projectOne"){
         $("#bioOne").fadeIn(1500);
       }
