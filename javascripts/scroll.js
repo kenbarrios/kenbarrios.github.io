@@ -1,4 +1,6 @@
-// Jakes code to slowly swing down to a link target
+// Borrowed code from Jake Lassiter
+// https://www.linkedin.com/in/jakelassiter
+// http://jakelassiter.com/
 $(document).ready(function(){
   $('a[href^="#"]').on('click', function(e){
     e.preventDefault();
@@ -10,5 +12,5 @@ $(document).ready(function(){
       'scrollTop': $target.offset().top
     }, 1200, 'swing');
   });
-  
+
 });
