@@ -246,7 +246,7 @@ nav ul li:hover {
 #projectsList section {
   width: 25%;
   height: 100vh;
-  border: solid white 1px;
+  border: solid white 3px;
   display: block;
   float: left;
 }
