@@ -269,35 +269,7 @@ nav ul li:hover {
 	top: 44%;
 }
 
-#projectOne {
-	background-image: url(../images/letterDrops1.png);
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	opacity: .5;
-}
-
-#projectTwo {
-	background-image: url(../images/cause-and-reflect.png);
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	opacity: .5;
-}
-
-#projectThree {
-	background-image: url(../images/marveltapit.png);
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	opacity: .5;
-}
-
-#projectFour {
-	background-image: url(../images/anvil.png);
+.project-slim-cell {
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;

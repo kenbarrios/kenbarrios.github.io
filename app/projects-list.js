@@ -1,36 +1,24 @@
 (function() {
 	'use strict';
-
-	function ProjectsListController() {
-		var ctrl = this;
+	ProjectsListController.$inject = ['dataService'];
+	function ProjectsListController(dataService) {
 		console.log('projects-list.js!');
+		this.list = dataService;
+		this.active = '0000';
+		this.setActive = function(id) {
+			console.log('id = ', id);
+			this.active = id;
+		}
 	}
 
 	angular.module('app').component('projectsList', {
 		template: `
 			<div id="projects-list" class="aBlock">
-
-				<section id="projectOne">
-					<h6 id="titleOne">
-						LetterDrops
+				<section ng-repeat="project in $ctrl.list" ng-click="$ctrl.setActive(project.id)" class="project-slim-cell" ng-style="{'background-image':'url({{ project.img }})'}">
+					<h6>
+						{{ project.title }}
 					</h6>
 				</section>
-				<section id="projectTwo">
-					<h6 id="titleTwo">
-						Cause & Reflect
-					</h6>
-				</section>
-				<section id="projectThree">
-					<h6 id="titleThree">
-						Marvel Tap-iT
-					</h6>
-				</section>
-				<section id="projectFour">
-					<h6 id="titleFour">
-						Anvil
-					</h6>
-				</section>
-
 			</div><!-- closes projects-list -->
 		`,
 		controller: ProjectsListController,
