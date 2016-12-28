@@ -50,9 +50,9 @@
 					brief: 'A front-end only news site',
 					instructions1: null,
 					instructions2: null,
-					tech1: 'HTML and CSS to design the entire site, from scratch.',
-					tech2: 'Independently found necessary breakpoints for media queries',
-					tech3: null,
+					tech1: 'first-ever project',
+					tech2: 'HTML and CSS to design the entire site, from scratch.',
+					tech3: 'Independently found necessary breakpoints for media queries',
 					repo: 'https://github.com/kenbarrios/kenbarrios.github.io/tree/master/GA-Circuits/unit9',
 					site: 'https://kenbarrios.github.io/GA-Circuits/unit9/index.html',
 					img: '/Users/Almohada/kenbarrios.github.io/images/anvil.png'

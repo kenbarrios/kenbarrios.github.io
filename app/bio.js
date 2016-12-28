@@ -29,19 +29,19 @@
 						{{ $ctrl.project.brief }}
 					</p>
 					<br>
-					<h3>
-						Instructions
-					</h3>
-
-					<ul>
-						<li>
-							{{ $ctrl.project.instructions1 }}
-						</li>
-						<li>
-							{{ $ctrl.project.instructions2 }}
-						</li>
-					</ul>
-
+					<div ng-if=!!$ctrl.project.instructions1>
+						<h3>
+							Instructions
+						</h3>
+						<ul>
+							<li>
+								{{ $ctrl.project.instructions1 }}
+							</li>
+							<li>
+								{{ $ctrl.project.instructions2 }}
+							</li>
+						</ul>
+					</div>
 					<h3>
 						Technologies
 					</h3>
@@ -59,7 +59,7 @@
 
 					<a ng-href="{{ $ctrl.project.repo }}" target="_blank">
 						<h3>
-							Repository
+							Github Repo
 						</h3>
 					</a>
 
