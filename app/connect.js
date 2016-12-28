@@ -19,7 +19,7 @@
 					<a href="https://github.com/kenbarrios" target="_blank"><p class="midLink">github</p></a>
 					<a href="mailto:ken.barrios.13@gmail.com"><p>email</p></a>
 				</section>
-			</div><!-- closes connect -->
+			</div>
 		`,
 		controller: ConnectController,
 		bindings: {}

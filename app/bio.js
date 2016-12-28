@@ -8,14 +8,13 @@
 
 	angular.module('app').component('bio', {
 		template: `
-		<div> BIO RIGHT HERE
 			<section id="" class="">
 				<div class="closeBtn">
 					close
 				</div>
 				<div class="">
 					<h1>
-						LetterDrops
+						$$$? {{ $ctrl.project.title }}
 					</h1>
 					<p>
 						A game for kids to learn the ABCs and Keyboard Keys
@@ -62,9 +61,10 @@
 					</a>
 				</div><!-- closes bioContent -->
 			</section><!-- closes bioOne -->
-			</div>
 		`,
 		controller: BioController,
-		bindings: {}
+		bindings: {
+			project: '<'
+		}
 	});
 })();

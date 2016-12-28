@@ -14,11 +14,6 @@
 			<projects-list></projects-list>
 
 			<connect></connect>
-
-			<bio></bio>
-			<!-- jQuery transition divs after clicking on an individual project -->
-			<!-- jQuery transition divs after clicking on an individual project -->
-			<!-- jQuery transition divs after clicking on an individual project -->
 			<!-- jQuery transition divs after clicking on an individual project -->
 			<div class="biosWrapper">
 

@@ -12,7 +12,7 @@
 				<h2>
 					projects
 				</h2>
-			</div><!-- closes projects-header -->
+			</div>
 		`,
 		controller: ProjectsHeaderController,
 		bindings: {}

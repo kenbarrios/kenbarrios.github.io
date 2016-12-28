@@ -17,7 +17,7 @@
 				<h3 class="hireMe2">
 					front end web developer
 				</h3>
-			</div><!-- closes landing -->
+			</div>
 		`,
 		controller: LandingController,
 		bindings: {}

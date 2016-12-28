@@ -26,10 +26,10 @@
 							javascript & jquery
 						</li>
 						<li>
-							sinatra
+							angularjs
 						</li>
 						<li>
-							ruby & ruby on rails
+							typescript
 						</li>
 					</ul>
 
