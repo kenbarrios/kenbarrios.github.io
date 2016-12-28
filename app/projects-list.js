@@ -1,5 +1,6 @@
 (function() {
 	'use strict';
+	
 	ProjectsListController.$inject = ['dataService'];
 	function ProjectsListController(dataService) {
 		console.log('projects-list.js!');
@@ -11,6 +12,12 @@
 			this.project = project;
 			console.log('this.project = ', this.project);
 		}
+		this.isActive = function(project, active) {
+			if(project.id == active) {
+				return true;
+			}
+			return false;
+		}
 	}
 
 	angular.module('app').component('projectsList', {
@@ -21,7 +28,7 @@
 						{{ project.title }}
 					</h6>
 				</section>
-				<bio ng-if="$ctrl.project.id == $ctrl.active" project="$ctrl.project"></bio>
+				<bio ng-if="$ctrl.isActive($ctrl.project, $ctrl.active)" project="$ctrl.project" active="$ctrl.active"></bio>
 			</div>
 		`,
 		controller: ProjectsListController,

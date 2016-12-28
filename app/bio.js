@@ -2,22 +2,31 @@
 	'use strict';
 
 	function BioController() {
-		var ctrl = this;
 		console.log('bio.js!');
+		this.close = function() {
+			this.active = '0000';
+		}
 	}
 
 	angular.module('app').component('bio', {
 		template: `
-			<section id="" class="bio-section">
-				<div class="closeBtn">
+			<section
+				class="bio-section"
+				ng-style="{
+				'background':'linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url({{ $ctrl.project.img }})',
+				'background-attachment': 'fixed',
+				'background-size': 'cover',
+				'background-position': 'center',
+				'background-repeat': 'no-repeat'}">
+				<div ng-click="$ctrl.close()" class="close-btn">
 					close
 				</div>
 				<div class="">
 					<h1>
-						$$$? {{ $ctrl.project.title }}
+						{{ $ctrl.project.title }}
 					</h1>
 					<p>
-						A game for kids to learn the ABCs and Keyboard Keys
+						{{ $ctrl.project.brief }}
 					</p>
 					<br>
 					<h3>
@@ -26,10 +35,10 @@
 
 					<ul>
 						<li>
-							There are two levels that involve falling “drops” with letters inside: the levels are called “Alphabetized” and “Randomized”. As the drops fall, the user <strong>types the corresponding letter into the keyboard to pop the drop</strong>.
+							{{ $ctrl.project.instructions1 }}
 						</li>
 						<li>
-							There is a third level that involves several drops that contain entire words: the level is called “Words”. The user must <strong>spell out the entire word, and once the spelling is completed the word drop will pop</strong>.
+							{{ $ctrl.project.instructions2 }}
 						</li>
 					</ul>
 
@@ -38,33 +47,34 @@
 					</h3>
 					<ul>
 						<li>
-							css keyframes for animation
+							{{ $ctrl.project.tech1 }}
 						</li>
 						<li>
-							javascript & jQuery for game setup and logic
+							{{ $ctrl.project.tech2 }}
 						</li>
 						<li>
-							ruby on rails for backend
+							{{ $ctrl.project.tech3 }}
 						</li>
 					</ul>
 
-					<a href="https://github.com/kenbarrios/LetterDrops" target="_blank">
+					<a ng-href="{{ $ctrl.project.repo }}" target="_blank">
 						<h3>
-							LetterDrops repository
+							Repository
 						</h3>
 					</a>
 
-					<a href="https://letterdrops.herokuapp.com/" target="_blank">
+					<a ng-href="{{ $ctrl.project.site }}" target="_blank">
 						<h3>
-							LetterDrops site
+							Site
 						</h3>
 					</a>
-				</div><!-- closes bioContent -->
-			</section><!-- closes bioOne -->
+				</div>
+			</section>
 		`,
 		controller: BioController,
 		bindings: {
-			project: '<'
+			project: '<',
+			active: '='
 		}
 	});
 })();

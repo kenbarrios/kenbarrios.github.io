@@ -1,18 +1,25 @@
-.biosWrapper {
+.bio-section {
+	width: 100% !important;
+	position: relative;
+	top: -100%;
+	margin-bottom: -100%;
+}
+
+/*.biosWrapper {
 	width: 100%;
 	height: auto;
 	margin-top: -1228px;
 	position: absolute;
 	z-index: 2;
-}
+}*/
 
-.projectBios {
+/*.projectBios {
 	width: 100%;
 	padding-top: 30px;
 	padding-bottom: 40px;
-}
+}*/
 
-.closeBtn {
+.close-btn {
 	color: white;
 	display: block;
 	float: right;
@@ -21,7 +28,7 @@
 	text-decoration: underline;
 }
 
-.closeBtn:hover {
+.close-btn:hover {
 	background-color: white;
 	color: black;
 }
