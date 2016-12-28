@@ -2,7 +2,7 @@
 // http://codepen.io/corysimmons/pen/KbFcg
 
 $(document).ready(function(){
-  $('button').click(function() {
-  $(this).toggleClass('expanded').siblings('ul').slideToggle();
-  });
+	$('button').click(function() {
+		$(this).toggleClass('expanded').siblings('ul').slideToggle();
+	});
 });

@@ -1,92 +1,27 @@
-.biosWrapper {
-  width: 100%;
-  height: auto;
-  margin-top: -1228px;
-  position: absolute;
-  z-index: 2;
+.bio-section {
+	width: 100% !important;
+	color: #FEFFF1;
+	margin-bottom: -100%;
+	padding: 25px;
+	position: relative;
+	text-align: left;
+	top: -100%;
 }
 
-.projectBios {
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 40px;
+.bio-section > div > a {
+	color: #FEFFF1;
 }
 
-.closeBtn {
-  color: white;
-  display: block;
-  float: right;
-  margin-right: 5px;
-  padding: 15px;
-  text-decoration: underline;
+.close-btn {
+	color: white;
+	display: block;
+	float: right;
+	margin-right: 5px;
+	padding: 15px;
+	text-decoration: underline;
 }
 
-.closeBtn:hover {
-  background-color: white;
-  color: black;
-}
-
-.bioContent {
-  width: 60%;
-  height: 100hv;
-  color: white;
-  display: block;
-  margin: auto;
-}
-
-.bioContent h3 {
-  font-size: 25px;
-}
-
-.bioContent li, p {
-  font-size: 20px;
-}
-
-.bioContent a {
-  color: white;
-  text-decoration: none;
-}
-
-.bioContent a:hover {
-  text-decoration: underline;
-}
-
-#bioOne {
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
-    url(../images/letterDrops1.png);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: none;
-}
-
-#bioTwo {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
-    url(../images/cause-and-reflect.png);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: none;
-}
-
-#bioThree {
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
-    url(../images/marveltapit.png);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: none;
-}
-
-#bioFour {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
-    url(../images/anvil.png);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: none;
+.close-btn:hover {
+	background-color: white;
+	color: black;
 }
