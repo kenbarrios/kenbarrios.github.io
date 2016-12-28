@@ -8,7 +8,7 @@
 
 	angular.module('app').component('bio', {
 		template: `
-			<section id="" class="">
+			<section id="" class="bio-section">
 				<div class="closeBtn">
 					close
 				</div>

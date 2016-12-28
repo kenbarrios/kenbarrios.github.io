@@ -312,3 +312,13 @@ nav ul li:hover {
 	background-color: rgba(255,255,255,.8);
 	color: rgba(20,133,204,.9);
 }
+
+#projects-list section  > .bio-section {
+	width: 100%;
+}
+
+.bio-section {
+	position: relative;
+	top: -100%;
+	margin-bottom: -100%;
+}

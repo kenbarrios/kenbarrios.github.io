@@ -14,6 +14,7 @@
 @media only screen and (max-width: 900px) {
 	#aboutmeBlurb li, #aboutmeBlurb p {
 		font-size: 20px;
+		overflow-y: scroll;
 	}
 }
 
