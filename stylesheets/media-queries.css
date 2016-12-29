@@ -53,6 +53,14 @@
 		color: white;
 		top: 35%;
 	}
+	#contactTitle {
+		width: 100%;
+		height: 350px;
+		background-attachment: initial;
+	}
+	#contactTitle h2 {
+		top: 19%;
+	}
 	#connect {
 		height: 800px;
 	}
@@ -129,16 +137,6 @@
 
 	#projectFour {
 		background-attachment: initial;
-	}
-
-	#contactTitle {
-		width: 100%;
-		height: 350px;
-		background-attachment: initial;
-	}
-
-	#contactTitle h2 {
-		top: 19%;
 	}
 
 	.biosWrapper {
