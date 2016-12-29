@@ -57,6 +57,7 @@
 		width: 100%;
 		height: auto;
 		padding: 15px;
+		overflow-y: scroll;
 	}
 
 	#aboutmeBlurb h3 {
@@ -66,6 +67,11 @@
 	#aboutmeBlurb li, #aboutmeBlurb p {
 		font-size: 22px;
 	}
+	
+	#projects-header {
+		display: inline-block;
+	}
+
 	#projects-list {
 		height: 800px;
 	}
@@ -104,9 +110,7 @@
 }
 
 @media only screen and (max-width: 640px) {
-	#projects-header {
-		display: inline-block;
-	}
+	
 }
 
 @media only screen and (max-width: 620px) {
