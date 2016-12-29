@@ -20,7 +20,5 @@
 		bindings: {}
 	});
 	
-	function RootController() {
-		console.log('index.js!');
-	}
+	function RootController() {}
 })();

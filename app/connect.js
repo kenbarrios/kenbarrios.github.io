@@ -1,10 +1,7 @@
 (function() {
 	'use strict';
 
-	function ConnectController() {
-		var ctrl = this;
-		console.log('connect.js!');
-	}
+	function ConnectController() {}
 
 	angular.module('app').component('connect', {
 		template: `

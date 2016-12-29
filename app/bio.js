@@ -2,7 +2,6 @@
 	'use strict';
 
 	function BioController() {
-		console.log('bio.js!');
 		this.close = function() {
 			this.active = '0000';
 		}

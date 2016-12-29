@@ -3,14 +3,12 @@
 	
 	ProjectsListController.$inject = ['dataService'];
 	function ProjectsListController(dataService) {
-		console.log('projects-list.js!');
 		this.list = dataService;
 		this.active = '0000';
 		this.project = {};
 		this.setActive = function(project) {
 			this.active = project.id;
 			this.project = project;
-			console.log('this.project = ', this.project);
 		}
 		this.isActive = function(project, active) {
 			if(project.id == active) {

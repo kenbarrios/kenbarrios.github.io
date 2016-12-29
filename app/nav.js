@@ -1,10 +1,7 @@
 (function() {
 	'use strict';
 
-	function NavController() {
-		var ctrl = this;
-		console.log('nav.js!');
-	}
+	function NavController() {}
 
 	angular.module('app').component('appNav', {
 		template: `

@@ -1,10 +1,7 @@
 (function() {
 	'use strict';
 
-	function AboutController() {
-		var ctrl = this;
-		console.log('about-me.js!');
-	}
+	function AboutController() {}
 
 	angular.module('app').component('about', {
 		template: `

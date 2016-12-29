@@ -1,10 +1,7 @@
 (function() {
 	'use strict';
 
-	function ProjectsHeaderController() {
-		var ctrl = this;
-		console.log('projects-header.js!');
-	}
+	function ProjectsHeaderController() {}
 
 	angular.module('app').component('projectsHeader', {
 		template: `

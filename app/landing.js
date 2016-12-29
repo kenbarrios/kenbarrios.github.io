@@ -1,10 +1,7 @@
 (function() {
 	'use strict';
 
-	function LandingController() {
-		var ctrl = this;
-		console.log('landing.js!');
-	}
+	function LandingController() {}
 
 	angular.module('app').component('landing', {
 		template: `
