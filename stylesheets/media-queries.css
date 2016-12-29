@@ -53,6 +53,20 @@
 		color: white;
 		top: 35%;
 	}
+	#connect {
+		height: 800px;
+	}
+
+	#connect .blockBlurbs {
+		width: 100%;
+		height: 450px;
+		display: inline-block;
+	}
+
+	#connect .blockBlurbs p {
+		height: 150px;
+		line-height: 150px;
+	}
 }
 
 @media only screen and (max-width: 640px) {
@@ -125,21 +139,6 @@
 
 	#contactTitle h2 {
 		top: 19%;
-	}
-
-	#connect {
-		height: 800px;
-	}
-
-	#connect .blockBlurbs {
-		width: 100%;
-		height: 450px;
-		display: inline-block;
-	}
-
-	#connect .blockBlurbs p {
-		height: 150px;
-		line-height: 150px;
 	}
 
 	.biosWrapper {

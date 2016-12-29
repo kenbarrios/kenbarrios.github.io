@@ -177,6 +177,7 @@ nav ul li:hover {
 	display: block;
 	float: left;
 	color: white;
+	overflow-y: scroll;
 }
 
 .blockBlurbs h3 {

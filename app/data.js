@@ -58,7 +58,6 @@
 					img: '//kenbarrios.github.io/images/anvil.png'
 				},
 		];
-
 		return list;
 	}
 })();
