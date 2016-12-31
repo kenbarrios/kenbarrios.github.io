@@ -1,18 +1,6 @@
-/*MIN-HEIGHT*/
-@media only screen and (min-height: 700px) {
-	.biosWrapper {
-		margin-top: -1410px;
-	}
-}
-/*MIN-HEIGHT*/
-@media only screen and (min-height: 800px) {
-	.biosWrapper {
-		margin-top: -1600px;
-	}
-}
-
+/*MAX-WIDTH*/
 @media only screen and (max-width: 900px) {
-	#aboutmeBlurb li, #aboutmeBlurb p {
+	#about-me-text li, #about-me-text p {
 		font-size: 20px;
 		overflow-y: scroll;
 	}
@@ -20,11 +8,8 @@
 
 /*MAX HEIGHT*/
 @media only screen and (max-height: 480px) {
-	#aboutmeBlurb li, #aboutmeBlurb p {
+	#about-me-text li, #about-me-text p {
 		font-size: 18px;
-	}
-	.biosWrapper {
-		margin-top: -960px;
 	}
 }
 
@@ -44,27 +29,27 @@
 	#aboutMeDiv {
 		height: 684px;
 	}
-	#aboutMeImg {
+	#about-me-img {
 		width: 100%;
 		height: 350px;
 	}
 
-	#aboutMeImg h2 {
+	#about-me-img h2 {
 		top: 19%;
 	}
 
-	#aboutmeBlurb {
+	#about-me-text {
 		width: 100%;
 		height: auto;
 		padding: 15px;
 		overflow-y: scroll;
 	}
 
-	#aboutmeBlurb h3 {
+	#about-me-text h3 {
 		margin-top: 0px;
 	}
 
-	#aboutmeBlurb li, #aboutmeBlurb p {
+	#about-me-text li, #about-me-text p {
 		font-size: 22px;
 	}
 
@@ -109,13 +94,13 @@
 		height: 800px;
 	}
 
-	#connect .blockBlurbs {
+	#connect .block-text {
 		width: 100%;
 		height: 450px;
 		display: inline-block;
 	}
 
-	#connect .blockBlurbs p {
+	#connect .block-text p {
 		height: 150px;
 		line-height: 150px;
 	}
@@ -127,63 +112,23 @@
 		background-attachment: initial;
 	}
 
-	#aboutMeImg {
+	#about-me-img {
 		background-attachment: initial;
 	}
 
 	#projects-header {
 		background-attachment: initial;
 	}
-
-	#project-one {
-		background-attachment: initial;
-	}
-
-	#projectTwo {
-		background-attachment: initial;
-	}
-
-	#projectThree {
-		background-attachment: initial;
-	}
-
-	#projectFour {
-		background-attachment: initial;
-	}
-
-	.biosWrapper {
-		margin-top: -1428px;
-	}
-
-	.bioContent {
-		width: 95%;
-	}
-
-	#bioOne {
-		background-attachment: initial;
-	}
-
-	#bioTwo {
-		background-attachment: initial;
-	}
-
-	#bioThree {
-		background-attachment: initial;
-	}
-
-	#bioFour {
-		background-attachment: initial;
-	}
 }
 
 @media only screen and (max-width: 500px) {
-	.desktopNav {
+	.desktop-nav {
 		display: none;
 	}
-	.mobileNav {
+	.mobile-nav {
 		display: block;
 	}
-	.mobileNav ul li:hover {
+	.mobile-nav ul li:hover {
 		background-color: rgba(255, 255, 255, 0.8);
 		color: rgba(0, 0, 0, 0.8);
 	}

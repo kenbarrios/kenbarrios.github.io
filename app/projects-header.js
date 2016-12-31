@@ -5,7 +5,7 @@
 
 	angular.module('app').component('projectsHeader', {
 		template: `
-			<div id="projects-header" class="aBlock">
+			<div id="projects-header" class="site-card">
 				<h2>
 					projects
 				</h2>

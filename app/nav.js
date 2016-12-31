@@ -5,7 +5,7 @@
 
 	angular.module('app').component('appNav', {
 		template: `
-			<nav class="desktopNav">
+			<nav class="desktop-nav">
 				<ul>
 					<a href="javascript:history.go(0)">
 						<li>
@@ -30,7 +30,7 @@
 				</ul>
 			</nav><!-- closes DESKTOP NAV -->
 
-			<nav class="mobileNav">
+			<nav class="mobile-nav">
 				<button>Toggle</button>
 				<ul>
 					<a href="javascript:history.go(0)">

@@ -20,7 +20,7 @@
 
 	angular.module('app').component('projectsList', {
 		template: `
-			<div id="projects-list" class="aBlock">
+			<div id="projects-list" class="site-card">
 				<section ng-repeat="project in $ctrl.list" ng-click="$ctrl.setActive(project)" class="project-slim-cell" ng-style="{'background-image':'url({{ project.img }})'}">
 					<h6>
 						{{ project.title }}

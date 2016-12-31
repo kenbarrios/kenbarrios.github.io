@@ -5,7 +5,7 @@
 
 	angular.module('app').component('landing', {
 		template: `
-			<div id="landing" class="aBlock">
+			<div id="landing" class="site-card">
 				<app-nav></app-nav>
 
 				<h1 class="hireMe1">

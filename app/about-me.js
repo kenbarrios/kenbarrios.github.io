@@ -5,13 +5,13 @@
 
 	angular.module('app').component('about', {
 		template: `
-			<div id="aboutMeDiv" class="aBlock">
-				<section id="aboutMeImg" class="blockTitles">
+			<div id="aboutMeDiv" class="site-card">
+				<section id="about-me-img" class="block-titles">
 					<h2>
 						about
 					</h2>
 				</section>
-				<section id="aboutmeBlurb" class="blockBlurbs">
+				<section id="about-me-text" class="block-text">
 					<h3>
 						skills
 					</h3>

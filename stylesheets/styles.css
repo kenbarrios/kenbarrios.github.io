@@ -25,13 +25,13 @@ p, li {
 	font-family: 'Domine', serif;
 }
 
-.desktopNav {
+.desktop-nav {
 	width: 100%;
 	height: 55px;
 	background-color: transparent;
 }
 
-.desktopNav ul {
+.desktop-nav ul {
 	display: block;
 	width: 100%;
 	height: 55px;
@@ -40,7 +40,7 @@ p, li {
 	text-align: center;
 }
 
-.desktopNav ul li{
+.desktop-nav ul li{
 	width: 25%;
 	height: 60px;
 	background-color: transparent;
@@ -52,7 +52,7 @@ p, li {
 	padding: 10px;
 }
 
-.mobileNav {
+.mobile-nav {
 	width: 100%;
 	height: 50px;
 	display: none;
@@ -60,7 +60,7 @@ p, li {
 	z-index: 2;
 }
 
-.mobileNav button {
+.mobile-nav button {
 	width: 55px;
 	height: 55px;
 	position: absolute;
@@ -83,7 +83,7 @@ p, li {
 		border: 0;
 }
 
-.mobileNav ul {
+.mobile-nav ul {
 	width: 100%;
 	height: 400px;
 	display: none;
@@ -91,7 +91,7 @@ p, li {
 	padding: 0px;
 }
 
-.mobileNav li {
+.mobile-nav li {
 	width: 100%;
 	height: 100px;
 	background-color: rgba(0, 0, 0, 0.8);
@@ -100,7 +100,7 @@ p, li {
 	line-height: 100px;
 }
 
-.mobileNav a {
+.mobile-nav a {
 	color: white;
 	text-decoration: none;
 }
@@ -109,7 +109,7 @@ nav ul li:hover {
 	color: rgba(255, 255, 255, 1);
 }
 
-.aBlock {
+.site-card {
 	width: 100%;
 	height: 100vh;
 	background-size: cover;
@@ -117,7 +117,7 @@ nav ul li:hover {
 	text-align: center;
 }
 
-.aBlock h1, h2, h3, p {
+.site-card h1, h2, h3, p {
 	margin: 0px;
 	padding: 0px;
 }
@@ -151,14 +151,14 @@ nav ul li:hover {
 	z-index: 1;
 }
 
-.blockTitles {
+.block-titles {
 	width: 50%;
 	height: 100vh;
 	display: block;
 	float: left;
 }
 
-.blockTitles h2 {
+.block-titles h2 {
 	height: 225px;
 	width: 225px;
 	background-color: rgba(255,255,255,.8);
@@ -171,7 +171,7 @@ nav ul li:hover {
 	top: 35%;
 }
 
-.blockBlurbs {
+.block-text {
 	width: 50%;
 	height: 100vh;
 	display: block;
@@ -180,13 +180,13 @@ nav ul li:hover {
 	overflow-y: scroll;
 }
 
-.blockBlurbs h3 {
+.block-text h3 {
 	font-size: 30px;
 	margin-top: 10%;
 	text-decoration: underline;
 }
 
-.blockBlurbs ul {
+.block-text ul {
 	width: 100%;
 	display: block;
 	margin: auto;
@@ -194,17 +194,17 @@ nav ul li:hover {
 	padding: 0px;
 }
 
-.blockBlurbs li {
+.block-text li {
 	font-size: 25px;
 
 }
 
-.blockBlurbs p {
+.block-text p {
 	font-size: 25px;
 	padding: 0px 25px 0px 25px;
 }
 
-#aboutMeImg {
+#about-me-img {
 	background-image: url(../images/myBike.jpg);
 	background-size: cover;
 	background-attachment: fixed;
@@ -212,7 +212,7 @@ nav ul li:hover {
 	background-repeat: no-repeat;
 }
 
-#aboutmeBlurb {
+#about-me-text {
 	background-color: rgba(178,18,18,.8);
 }
 
@@ -288,28 +288,28 @@ nav ul li:hover {
 	background-repeat: no-repeat;
 }
 
-#connect .blockBlurbs {
+#connect .block-text {
 	background-color: rgba(20,133,204,1);
 }
 
-#connect .blockBlurbs a {
+#connect .block-text a {
 	color: white;
 	text-decoration: none;
 }
 
-#connect .blockBlurbs p {
+#connect .block-text p {
 	width: 100%;
 	height: 33.3vh;
 	font-size: 45px;
 	line-height: 33vh;
 }
 
-#connect .blockBlurbs .midLink {
+#connect .block-text .midLink {
 	border-top: 1px solid white;
 	border-bottom: 1px solid white;
 }
 
-#connect .blockBlurbs p:hover {
+#connect .block-text p:hover {
 	background-color: rgba(255,255,255,.8);
 	color: rgba(20,133,204,.9);
 }
