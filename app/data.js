@@ -16,7 +16,7 @@
 					tech3: 'ruby on rails for backend',
 					repo: 'https://github.com/kenbarrios/LetterDrops',
 					site: 'https://letterdrops.herokuapp.com/',
-					img: '/kenbarrios.github.io/images/letterDrops1.png'
+					img: '/Users/Almohada/kenbarrios.github.io/images/letterDrops1.png'
 				},
 				{
 					id: '0002',
@@ -29,7 +29,7 @@
 					tech3: 'Javascript for the dropdown log-in form',
 					repo: 'https://github.com/kenbarrios/kenbarrios.github.io/tree/master/GA-Circuits/unit11',
 					site: 'https://kenbarrios.github.io/GA-Circuits/unit11/index.html',
-					img: '/kenbarrios.github.io/images/cause-and-reflect.png'
+					img: '/Users/Almohada/kenbarrios.github.io/images/cause-and-reflect.png'
 				},
 				{
 					id: '0003',
@@ -42,7 +42,7 @@
 					tech3: 'ruby on rails for backend',
 					repo: 'https://github.com/WDI-Woodstock-Schroeder/MarvelTapIt',
 					site: 'http://marveltapit.herokuapp.com/',
-					img: '/kenbarrios.github.io/images/marveltapit.png'
+					img: '/Users/Almohada/kenbarrios.github.io/images/marveltapit.png'
 				},
 				{
 					id: '0004',
@@ -55,7 +55,7 @@
 					tech3: 'Independently found necessary breakpoints for media queries',
 					repo: 'https://github.com/kenbarrios/kenbarrios.github.io/tree/master/GA-Circuits/unit9',
 					site: 'https://kenbarrios.github.io/GA-Circuits/unit9/index.html',
-					img: '/kenbarrios.github.io/images/anvil.png'
+					img: '/Users/Almohada/kenbarrios.github.io/images/anvil.png'
 				},
 		];
 		return list;
