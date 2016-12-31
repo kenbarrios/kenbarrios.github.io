@@ -77,7 +77,7 @@
 		top: 35%;
 	}
 
-	.project-slim-cell {
+	#projects-list > .project-slim-cell {
 		background-attachment: initial;
 		background-size: cover;
 		background-position: center;
@@ -91,6 +91,7 @@
 		background-attachment: initial;
 		color: #FEFFF1;
 		margin-bottom: -100%;
+		overflow-y: scroll;
 		padding: 25px;
 		position: fixed;
 		text-align: left;
@@ -120,10 +121,6 @@
 		height: 150px;
 		line-height: 150px;
 	}
-}
-
-@media only screen and (max-width: 620px) {
-
 }
 
 @media only screen and (max-width: 500px) {
