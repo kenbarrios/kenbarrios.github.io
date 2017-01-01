@@ -34,10 +34,7 @@
 						in brief
 					</h3>
 					<p>
-						Born and raised in Chicago. Cyclist. Activist.
-					</p>
-					<p>
-						I want to make things. I'm fascinated by engineering. I love that web development provides digital raw materials that I can manipulate, build out, tear down, and build back up again, without having to resort to the limitations of brick and mortar.
+						I'm fascinated by engineering. I love that web development provides digital raw materials that I can manipulate, build out, tear down, and build back up again - without having to deal with the limitations of brick and mortar. My preference would be to work for firms that are involved in either education, architecture, fitness, government, or non-profit work.
 					</p>
 				</section>
 			</div><!-- closes aboutMeDiv -->
