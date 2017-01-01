@@ -88,7 +88,7 @@
 	.bio-section {
 		width: 100% !important;
 		height: 100vh !important;
-		background-attachment: initial;
+		background-attachment: initial !important;
 		color: #FEFFF1;
 		margin-bottom: -100%;
 		overflow-y: scroll;
