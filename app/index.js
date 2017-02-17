@@ -16,7 +16,7 @@
 			<connect></connect>
 		</div>
 		`,
-		controller: RootController,
+		//controller: RootController,
 		bindings: {}
 	});
 	
