@@ -28,7 +28,7 @@
 						{{ $ctrl.project.brief }}
 					</p>
 					<br>
-					<div ng-if=!!$ctrl.project.instructions1>
+					<div ng-if="!!$ctrl.project.instructions1">
 						<h3>
 							Instructions
 						</h3>
@@ -62,7 +62,7 @@
 						</h3>
 					</a>
 
-					<a ng-href="{{ $ctrl.project.site }}" target="_blank">
+					<a ng-if="!!$ctrl.project.site" ng-href="{{ $ctrl.project.site }}" target="_blank">
 						<h3>
 							Site
 						</h3>

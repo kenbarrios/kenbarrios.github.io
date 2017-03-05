@@ -15,7 +15,7 @@
 					tech2: 'AngularJS Component Router',
 					tech3: 'Figuring out how to use Models to componentize data',
 					repo: 'https://github.com/kenbarrios/wage-claim-app/',
-					site: null,
+					site: 'https://kenbarrios.github.io/wage-claim-app/',
 					img: '/kenbarrios.github.io/images/idol.png'
 				},
 				{
