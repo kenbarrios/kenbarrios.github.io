@@ -12,7 +12,7 @@
 					</h2>
 				</section>
 				<section class="block-text">
-					<a href="https://www.linkedin.com/pub/ken-barrios/91/148/290" target="_blank"><p>linkedin</p></a>
+					<a href="https://www.linkedin.com/in/kenbarrios1/" target="_blank"><p>linkedin</p></a>
 					<a href="https://github.com/kenbarrios" target="_blank"><p class="midLink">github</p></a>
 					<a href="mailto:ken.barrios.13@gmail.com"><p>email</p></a>
 				</section>
