@@ -7,6 +7,7 @@
 body {
 	height: 100%;
 	width: 100%;
+	font-size: 16px;
 }
 
 /*brand red: rgba(178,18,18,1);
@@ -134,21 +135,53 @@ nav ul li:hover {
 
 #landing h1 {
 	width: 100%;
-	display: none;
+	height: auto;
+	display: inline-block;
 	font-size: 80px;
 	line-height: 105px;
 	position: relative;
 	z-index: 1;
+	-webkit-animation: fadeIn 5s;
+	-moz-animation: fadeIn 5s;
+	-ms-animation: fadeIn 5s;
+	-o-animation: fadeIn 5s;
+	animation: fadeIn 5s;
 }
 
 #landing h3 {
 	width: 100%;
-	display: none;
+	display: inline-block;
 	font-family: 'Domine', serif;
 	font-size: 50px;
 	padding: 10px 20px 10px 20px;
 	position: relative;
 	z-index: 1;
+	-webkit-animation: fadeIn 10s;
+	-moz-animation: fadeIn 10s;
+	-ms-animation: fadeIn 10s;
+	-o-animation: fadeIn 10s;
+	animation: fadeIn 10s;
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+@-webkit-keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+@-ms-keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
 }
 
 .block-titles {
