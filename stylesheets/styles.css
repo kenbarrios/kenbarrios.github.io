@@ -124,7 +124,8 @@ nav ul li:hover {
 }
 
 #landing {
-	background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../images/bymerchmart.jpg);
+	background-image: url(../images/bymerchmart.jpg);
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(../images/bymerchmart.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
